@@ -100,16 +100,16 @@
             <name>var__m_sys_hub_action_input_872493972fc42010c5d459ab2799b65a</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-29 21:22:30</sys_created_on>
-            <sys_id>d7779fdb2fc42010c5d459ab2799b69e</sys_id>
+            <sys_created_on>2020-10-30 19:57:06</sys_created_on>
+            <sys_id>4e8d00372f082010c5d459ab2799b678</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_name>command</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
             <sys_policy/>
             <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_872493972fc42010c5d459ab2799b65a_command</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-29 21:22:30</sys_updated_on>
+            <sys_updated_on>2020-10-30 19:57:06</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

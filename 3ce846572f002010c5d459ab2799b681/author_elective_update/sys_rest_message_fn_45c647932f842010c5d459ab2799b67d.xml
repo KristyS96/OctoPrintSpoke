@@ -68,7 +68,7 @@
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_scope_delete/>
         <sys_update_name>sys_rest_message_fn_45c647932f842010c5d459ab2799b67d</sys_update_name>
         <sys_update_version display_value="sys_rest_message_fn_45c647932f842010c5d459ab2799b67d">86088f932f842010c5d459ab2799b6c4</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>

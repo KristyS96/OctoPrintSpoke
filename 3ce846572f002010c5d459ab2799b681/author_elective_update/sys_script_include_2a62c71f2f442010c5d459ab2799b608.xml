@@ -470,7 +470,7 @@
         <sys_parent/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_scope_delete/>
         <sys_update_name>sys_script_include_2a62c71f2f442010c5d459ab2799b608</sys_update_name>
         <sys_update_version display_value="sys_script_include_2a62c71f2f442010c5d459ab2799b608">63948f9f2f442010c5d459ab2799b6e7</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
