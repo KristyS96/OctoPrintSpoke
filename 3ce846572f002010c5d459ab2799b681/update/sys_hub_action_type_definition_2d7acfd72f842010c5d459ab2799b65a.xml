@@ -10,23 +10,23 @@
         <copied_from>8d83b21b2f042010c5d459ab2799b6f8</copied_from>
         <copied_from_name>Upload GCODE file</copied_from_name>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>upload__print</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Send print API call➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].response_body}}","label":"step➛Upload GCODE➛Response Body","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].error_message}}","label":"step➛Upload GCODE➛Error Message","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].status_code}}","label":"step➛Upload GCODE➛Status Code","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].downloadlink}}","label":"step➛Script step➛downloadLink","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].filename}}","label":"step➛Script step➛filename","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>34931f572fc42010c5d459ab2799b6ec</latest_snapshot>
+        <latest_snapshot>91f8b7a32f842010c5d459ab2799b69a</latest_snapshot>
         <master_snapshot>91935f572fc42010c5d459ab2799b66e</master_snapshot>
         <name>Upload file &amp; Print</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-29 20:25:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d7acfd72f842010c5d459ab2799b65a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Upload file &amp; Print</sys_name>
         <sys_overrides/>
         <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2d7acfd72f842010c5d459ab2799b65a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-30 17:51:24</sys_updated_on>
+        <sys_updated_on>2020-10-30 18:27:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2726,17 +2726,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Upload file &amp; Print">2d7acfd72f842010c5d459ab2799b65a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8f93df572fc42010c5d459ab2799b6f9","name":"plan"}}</plan>
-        <snapshot>34931f572fc42010c5d459ab2799b6ec</snapshot>
+        <snapshot>91f8b7a32f842010c5d459ab2799b69a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-29 21:05:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8f93df572fc42010c5d459ab2799b6f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:05:33</sys_updated_on>
+        <sys_updated_on>2020-10-30 18:27:20</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2744,14 +2744,14 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>upload__print</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Send print API call➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].response_body}}","label":"step➛Upload GCODE➛Response Body","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].error_message}}","label":"step➛Upload GCODE➛Error Message","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].status_code}}","label":"step➛Upload GCODE➛Status Code","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].downloadlink}}","label":"step➛Script step➛downloadLink","type":"step","ref":""},{"name":"{{step[35719424-92dc-48fd-bdcb-46fb3fbbc350].filename}}","label":"step➛Script step➛filename","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Upload &amp; Print</name>
+        <name>Upload file &amp; Print</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -2762,7 +2762,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91935f572fc42010c5d459ab2799b66e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2770,7 +2770,7 @@
         <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:05:26</sys_updated_on>
+        <sys_updated_on>2020-10-30 18:27:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2791,7 +2791,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=91935f572fc42010c5d459ab2799b66e^sys_idNOT IN5d935f572fc42010c5d459ab2799b684,65935f572fc42010c5d459ab2799b6e6,e5935f572fc42010c5d459ab2799b6aa"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3154,7 +3154,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>cbc314cb-7319-4836-be2d-87e334f7541e</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3508,7 +3508,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>35719424-92dc-48fd-bdcb-46fb3fbbc350</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3984,7 +3984,7 @@
         <label>Location</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
+        <model display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
         <model_id>91935f572fc42010c5d459ab2799b66e</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_91935f572fc42010c5d459ab2799b66e</name>
@@ -4065,7 +4065,7 @@
         <label>Attachment</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
+        <model display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
         <model_id>91935f572fc42010c5d459ab2799b66e</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_91935f572fc42010c5d459ab2799b66e</name>
@@ -4149,7 +4149,7 @@
         <label>Printed File</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
+        <model display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</model>
         <model_id>91935f572fc42010c5d459ab2799b66e</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_91935f572fc42010c5d459ab2799b66e</name>
@@ -4193,7 +4193,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=91935f572fc42010c5d459ab2799b66e^sys_idNOT IN5d935f572fc42010c5d459ab2799b684,65935f572fc42010c5d459ab2799b6e6,e5935f572fc42010c5d459ab2799b6aa"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4556,7 +4556,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>cbc314cb-7319-4836-be2d-87e334f7541e</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4910,7 +4910,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Upload &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
+        <action display_value="Upload file &amp; Print">91935f572fc42010c5d459ab2799b66e</action>
         <cid>35719424-92dc-48fd-bdcb-46fb3fbbc350</cid>
         <extended_inputs/>
         <extended_inputs/>
