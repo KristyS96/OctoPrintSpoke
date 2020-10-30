@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="location" table="var__m_sys_hub_action_input_41e747ab2f402010c5d459ab2799b668" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_41e747ab2f402010c5d459ab2799b668</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 14:52:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e70fab2f402010c5d459ab2799b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 14:52:50</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_41e747ab2f402010c5d459ab2799b668</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 14:52:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05e70fab2f402010c5d459ab2799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 14:52:50</sys_updated_on>
+            <value>local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SD Card</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_41e747ab2f402010c5d459ab2799b668</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 14:52:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cde70fab2f402010c5d459ab2799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 14:52:51</sys_updated_on>
+            <value>SD Card</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <name>var__m_sys_hub_action_input_41e747ab2f402010c5d459ab2799b668</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 14:52:50</sys_created_on>
+            <sys_id>cde70fab2f402010c5d459ab2799b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 14:52:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

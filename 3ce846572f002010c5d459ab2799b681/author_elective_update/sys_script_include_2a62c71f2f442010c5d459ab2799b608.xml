@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_258747_octoprint.OctoPrintClientFilesUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>OctoPrintClientFilesUtil</name>
+        <script><![CDATA[(function(global, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define(["OctoPrintClient", "jquery", "lodash"], factory);
+    } else {
+        factory(global.OctoPrintClient, global.$, global._);
+    }
+})(this, function(OctoPrintClient, $, _) {
+    var url = "api/files";
+    var downloadUrl = "downloads/files";
+
+    var OctoPrintFilesClient = function(base) {
+        this.base = base;
+    };
+
+    var resourceForLocation = function(location) {
+        return url + "/" + location;
+    };
+
+    var downloadForLocation = function(location) {
+        return downloadUrl + "/" + location;
+    };
+
+    var downloadForEntry = function(location, filename) {
+        return downloadForLocation(location) + "/" + filename;
+    };
+
+    var resourceForEntry = function(location, filename) {
+        return resourceForLocation(location) + "/" + filename;
+    };
+
+    var preProcessList = function(response) {
+        var recursiveCheck = function(element, index, list) {
+            if (!element.hasOwnProperty("parent")) element.parent = {
+                children: list,
+                parent: undefined
+            };
+            if (!element.hasOwnProperty("size")) element.size = undefined;
+            if (!element.hasOwnProperty("date")) element.date = undefined;
+
+            if (element.type == "folder") {
+                element.weight = 0;
+                _.each(element.children, function(e, i, l) {
+                    e.parent = element;
+                    recursiveCheck(e, i, l);
+                    element.weight += e.weight;
+                });
+            } else {
+                element.weight = 1;
+            }
+        };
+        _.each(response.files, recursiveCheck);
+    };
+
+    OctoPrintFilesClient.prototype.get = function(location, entryname, opts) {
+        return this.base.get(resourceForEntry(location, entryname), opts);
+    };
+
+    OctoPrintFilesClient.prototype.list = function(recursively, force, opts) {
+        recursively = recursively || false;
+        force = force || false;
+
+        var query = {};
+        if (recursively) {
+            query.recursive = recursively;
+        }
+        if (force) {
+            query.force = force;
+        }
+
+        return this.base.getWithQuery(url, query, opts)
+            .done(preProcessList);
+    };
+
+    OctoPrintFilesClient.prototype.listForLocation = function(location, recursively, opts) {
+        recursively = recursively || false;
+        return this.base.getWithQuery(resourceForLocation(location), {
+                recursive: recursively
+            }, opts)
+            .done(preProcessList);
+    };
+
+    OctoPrintFilesClient.prototype.issueEntryCommand = function(location, entryname, command, data, opts) {
+        var url = resourceForEntry(location, entryname);
+        return this.base.issueCommand(url, command, data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.select = function(location, path, print, opts) {
+        print = print || false;
+
+        var data = {
+            print: print
+        };
+
+        return this.issueEntryCommand(location, path, "select", data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.analyse = function(location, path, parameters, opts) {
+        return this.issueEntryCommand(location, path, "analyse", parameters || {}, opts);
+    };
+
+    OctoPrintFilesClient.prototype.slice = function(location, path, parameters, opts) {
+        return this.issueEntryCommand(location, path, "slice",
+            parameters || {}, opts);
+    };
+	
+// 	OctoPrintFilesClient.prototype.delete = function(location, path, opts) {
+// 	    return this.base.delete(resourceForEntry(location, path), opts);
+// 	};
+
+    OctoPrintFilesClient.prototype.copy = function(location, path, destination, opts) {
+        return this.issueEntryCommand(location, path, "copy", {
+            destination: destination
+        }, opts);
+    };
+
+    OctoPrintFilesClient.prototype.move = function(location, path, destination, opts) {
+        return this.issueEntryCommand(location, path, "move", {
+            destination: destination
+        }, opts);
+    };
+
+    OctoPrintFilesClient.prototype.createFolder = function(location, name, path, opts) {
+        var data = {
+            foldername: name
+        };
+        if (path !== undefined && path !== "") {
+            data.path = path;
+        }
+
+        return this.base.postForm(resourceForLocation(location), data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.upload = function(location, file, data) {
+        data = data || {};
+
+        var filename = data.filename || undefined;
+        if (data.userdata && typeof data.userdata === "object") {
+            data.userdata = JSON.stringify(userdata);
+        }
+        return this.base.upload(resourceForLocation(location), file, filename, data);
+    };
+
+    OctoPrintFilesClient.prototype.download = function(location, path, opts) {
+        return this.base.download(downloadForEntry(location, path), opts);
+    };
+
+    OctoPrintFilesClient.prototype.pathForEntry = function(entry) {
+        if (!entry || !entry.hasOwnProperty("parent") || entry.parent == undefined) {
+            return "";
+        }
+
+        var recursivePath = function(element, path) {
+            if (element.hasOwnProperty("parent") && element.parent != undefined) {
+                return recursivePath(element.parent, element.name + "/" + path);
+            }
+
+            return path;
+        };
+
+        return recursivePath(entry.parent, entry.name);
+    };
+
+    OctoPrintFilesClient.prototype.entryForPath = function(path, root) {
+        if (_.isArray(root)) {
+            root = {
+                children: root
+            };
+        }
+
+        var recursiveSearch = function(path, entry) {
+            if (path.length == 0) {
+                return entry;
+            }
+
+            if (!entry.hasOwnProperty("children") || !entry.children) {
+                return undefined;
+            }
+
+            var name = path.shift();
+            for (var i = 0; i < entry.children.length; i++) {
+                if (name == entry.children[i].name) {
+                    return recursiveSearch(path, entry.children[i]);
+                }
+            }
+
+            return undefined;
+        };
+
+        return recursiveSearch(path.split("/"), root);
+    };
+
+    OctoPrintFilesClient.prototype.pathForElement = function(element) {
+        // TODO Remove in 1.4.x
+        log.warn("pathForElement has been renamed to pathForEntry, please use that instead");
+        return this.pathForEntry(element);
+    };
+
+    OctoPrintFilesClient.prototype.elementByPath = function(location, startElement) {
+        // TODO Remove in 1.4.x
+        log.warn("elementByPath has been renamed to entryForPath, please use that instead");
+        return this.entryForPath(location, startElement);
+    };
+
+    OctoPrintClient.registerComponent("files", OctoPrintFilesClient);
+    return OctoPrintFilesClient;
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 19:56:54</sys_created_on>
+        <sys_id>2a62c71f2f442010c5d459ab2799b608</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OctoPrintClientFilesUtil</sys_name>
+        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_script_include_2a62c71f2f442010c5d459ab2799b608</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 20:00:01</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</application>
+        <file_path/>
+        <instance_id>3954cccbdb1f0090387021c4059619a4</instance_id>
+        <instance_name>dev102451</instance_name>
+        <name>sys_script_include_2a62c71f2f442010c5d459ab2799b608</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_258747_octoprint.OctoPrintClientFilesUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;OctoPrintClientFilesUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function(global, factory) {
+    if (typeof define === 'function' &amp;&amp; define.amd) {
+        define(["OctoPrintClient", "jquery", "lodash"], factory);
+    } else {
+        factory(global.OctoPrintClient, global.$, global._);
+    }
+})(this, function(OctoPrintClient, $, _) {
+    var url = "api/files";
+    var downloadUrl = "downloads/files";
+
+    var OctoPrintFilesClient = function(base) {
+        this.base = base;
+    };
+
+    var resourceForLocation = function(location) {
+        return url + "/" + location;
+    };
+
+    var downloadForLocation = function(location) {
+        return downloadUrl + "/" + location;
+    };
+
+    var downloadForEntry = function(location, filename) {
+        return downloadForLocation(location) + "/" + filename;
+    };
+
+    var resourceForEntry = function(location, filename) {
+        return resourceForLocation(location) + "/" + filename;
+    };
+
+    var preProcessList = function(response) {
+        var recursiveCheck = function(element, index, list) {
+            if (!element.hasOwnProperty("parent")) element.parent = {
+                children: list,
+                parent: undefined
+            };
+            if (!element.hasOwnProperty("size")) element.size = undefined;
+            if (!element.hasOwnProperty("date")) element.date = undefined;
+
+            if (element.type == "folder") {
+                element.weight = 0;
+                _.each(element.children, function(e, i, l) {
+                    e.parent = element;
+                    recursiveCheck(e, i, l);
+                    element.weight += e.weight;
+                });
+            } else {
+                element.weight = 1;
+            }
+        };
+        _.each(response.files, recursiveCheck);
+    };
+
+    OctoPrintFilesClient.prototype.get = function(location, entryname, opts) {
+        return this.base.get(resourceForEntry(location, entryname), opts);
+    };
+
+    OctoPrintFilesClient.prototype.list = function(recursively, force, opts) {
+        recursively = recursively || false;
+        force = force || false;
+
+        var query = {};
+        if (recursively) {
+            query.recursive = recursively;
+        }
+        if (force) {
+            query.force = force;
+        }
+
+        return this.base.getWithQuery(url, query, opts)
+            .done(preProcessList);
+    };
+
+    OctoPrintFilesClient.prototype.listForLocation = function(location, recursively, opts) {
+        recursively = recursively || false;
+        return this.base.getWithQuery(resourceForLocation(location), {
+                recursive: recursively
+            }, opts)
+            .done(preProcessList);
+    };
+
+    OctoPrintFilesClient.prototype.issueEntryCommand = function(location, entryname, command, data, opts) {
+        var url = resourceForEntry(location, entryname);
+        return this.base.issueCommand(url, command, data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.select = function(location, path, print, opts) {
+        print = print || false;
+
+        var data = {
+            print: print
+        };
+
+        return this.issueEntryCommand(location, path, "select", data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.analyse = function(location, path, parameters, opts) {
+        return this.issueEntryCommand(location, path, "analyse", parameters || {}, opts);
+    };
+
+    OctoPrintFilesClient.prototype.slice = function(location, path, parameters, opts) {
+        return this.issueEntryCommand(location, path, "slice",
+            parameters || {}, opts);
+    };
+	
+// 	OctoPrintFilesClient.prototype.delete = function(location, path, opts) {
+// 	    return this.base.delete(resourceForEntry(location, path), opts);
+// 	};
+
+    OctoPrintFilesClient.prototype.copy = function(location, path, destination, opts) {
+        return this.issueEntryCommand(location, path, "copy", {
+            destination: destination
+        }, opts);
+    };
+
+    OctoPrintFilesClient.prototype.move = function(location, path, destination, opts) {
+        return this.issueEntryCommand(location, path, "move", {
+            destination: destination
+        }, opts);
+    };
+
+    OctoPrintFilesClient.prototype.createFolder = function(location, name, path, opts) {
+        var data = {
+            foldername: name
+        };
+        if (path !== undefined &amp;&amp; path !== "") {
+            data.path = path;
+        }
+
+        return this.base.postForm(resourceForLocation(location), data, opts);
+    };
+
+    OctoPrintFilesClient.prototype.upload = function(location, file, data) {
+        data = data || {};
+
+        var filename = data.filename || undefined;
+        if (data.userdata &amp;&amp; typeof data.userdata === "object") {
+            data.userdata = JSON.stringify(userdata);
+        }
+        return this.base.upload(resourceForLocation(location), file, filename, data);
+    };
+
+    OctoPrintFilesClient.prototype.download = function(location, path, opts) {
+        return this.base.download(downloadForEntry(location, path), opts);
+    };
+
+    OctoPrintFilesClient.prototype.pathForEntry = function(entry) {
+        if (!entry || !entry.hasOwnProperty("parent") || entry.parent == undefined) {
+            return "";
+        }
+
+        var recursivePath = function(element, path) {
+            if (element.hasOwnProperty("parent") &amp;&amp; element.parent != undefined) {
+                return recursivePath(element.parent, element.name + "/" + path);
+            }
+
+            return path;
+        };
+
+        return recursivePath(entry.parent, entry.name);
+    };
+
+    OctoPrintFilesClient.prototype.entryForPath = function(path, root) {
+        if (_.isArray(root)) {
+            root = {
+                children: root
+            };
+        }
+
+        var recursiveSearch = function(path, entry) {
+            if (path.length == 0) {
+                return entry;
+            }
+
+            if (!entry.hasOwnProperty("children") || !entry.children) {
+                return undefined;
+            }
+
+            var name = path.shift();
+            for (var i = 0; i &lt; entry.children.length; i++) {
+                if (name == entry.children[i].name) {
+                    return recursiveSearch(path, entry.children[i]);
+                }
+            }
+
+            return undefined;
+        };
+
+        return recursiveSearch(path.split("/"), root);
+    };
+
+    OctoPrintFilesClient.prototype.pathForElement = function(element) {
+        // TODO Remove in 1.4.x
+        log.warn("pathForElement has been renamed to pathForEntry, please use that instead");
+        return this.pathForEntry(element);
+    };
+
+    OctoPrintFilesClient.prototype.elementByPath = function(location, startElement) {
+        // TODO Remove in 1.4.x
+        log.warn("elementByPath has been renamed to entryForPath, please use that instead");
+        return this.entryForPath(location, startElement);
+    };
+
+    OctoPrintClient.registerComponent("files", OctoPrintFilesClient);
+    return OctoPrintFilesClient;
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-29 19:56:54&lt;/sys_created_on&gt;&lt;sys_id&gt;2a62c71f2f442010c5d459ab2799b608&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;OctoPrintClientFilesUtil&lt;/sys_name&gt;&lt;sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint"&gt;3ce846572f002010c5d459ab2799b681&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="OctoPrint Spoke"&gt;3ce846572f002010c5d459ab2799b681&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2a62c71f2f442010c5d459ab2799b608&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-29 20:00:01&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1856830164</payload_hash>
+        <record_name>OctoPrintClientFilesUtil</record_name>
+        <reverted_from/>
+        <source>7ce802972f002010c5d459ab2799b60e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 20:00:03</sys_created_on>
+        <sys_id>63948f9f2f442010c5d459ab2799b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17575f21ea60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 20:00:03</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>eb948f9fb74420100dc49e9989e571e6</update_guid>
+        <update_guid_history>eb948f9fb74420100dc49e9989e571e6:-1856830164,59f3cb139e442010653a48ede9775c98:-1330034792,99e3879f2a4420100d3d483c3121d173:-489801566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 20:16:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>93ebc16fde374518b1ddbbb333f2f440</sys_id>
+        <sys_metadata>2a62c71f2f442010c5d459ab2799b608</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OctoPrintClientFilesUtil</sys_name>
+        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_update_name>sys_script_include_2a62c71f2f442010c5d459ab2799b608</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2a62c71f2f442010c5d459ab2799b608">63948f9f2f442010c5d459ab2799b6e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 20:16:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

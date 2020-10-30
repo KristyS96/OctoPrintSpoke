@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="command" table="var__m_sys_hub_step_ext_input_0987131f2fc42010c5d459ab2799b6df" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_input_0987131f2fc42010c5d459ab2799b6df</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-29 21:22:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0587131f2fc42010c5d459ab2799b6e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-29 21:22:37</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>command</element>
+            <name>var__m_sys_hub_step_ext_input_0987131f2fc42010c5d459ab2799b6df</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-29 21:22:37</sys_created_on>
+            <sys_id>4d87131f2fc42010c5d459ab2799b6e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-29 21:22:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
