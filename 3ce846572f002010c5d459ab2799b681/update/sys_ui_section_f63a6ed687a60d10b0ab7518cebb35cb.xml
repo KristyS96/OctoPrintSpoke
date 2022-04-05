@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Configuration" section_id="f63a6ed687a60d10b0ab7518cebb35cb" sys_domain="global" table="x_258747_octoprint_3d_printer" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
+            <sys_id>a3bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
+            <sys_id>27bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
+            <sys_id>a7bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Configuration</caption>
+            <header>false</header>
+            <name>x_258747_octoprint_3d_printer</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f63a6ed687a60d10b0ab7518cebb35cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_258747_octoprint_3d_printer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_ui_section_f63a6ed687a60d10b0ab7518cebb35cb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

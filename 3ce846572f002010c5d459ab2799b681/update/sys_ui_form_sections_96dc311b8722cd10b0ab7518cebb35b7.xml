@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="96dc311b8722cd10b0ab7518cebb35b7" sys_domain="global" table="x_258747_octoprint_3d_print_model" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:45:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5adc311b8722cd10b0ab7518cebb35cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_258747_octoprint_3d_print_model" name="x_258747_octoprint_3d_print_model" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">96dc311b8722cd10b0ab7518cebb35b7</sys_ui_form>
+            <sys_ui_section caption="Product Model Details" display_value="Product Model Details" name="x_258747_octoprint_3d_print_model" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">1adc311b8722cd10b0ab7518cebb35b9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:45:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_258747_octoprint_3d_print_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:45:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96dc311b8722cd10b0ab7518cebb35b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_258747_octoprint_3d_print_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_ui_form_sections_96dc311b8722cd10b0ab7518cebb35b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:45:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

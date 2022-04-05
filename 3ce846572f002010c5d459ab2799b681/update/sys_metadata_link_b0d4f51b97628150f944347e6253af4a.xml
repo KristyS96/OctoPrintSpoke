@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>37a4751b97628150f944347e6253af5c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_258747_octoprint_3d_printer">
+    <x_258747_octoprint_3d_printer action="INSERT_OR_UPDATE">
+        <asset/>
+        <asset_tag/>
+        <assigned/>
+        <assigned_to/>
+        <assignment_group/>
+        <attestation_score/>
+        <attestation_status>Not Yet Reviewed</attestation_status>
+        <attested>false</attested>
+        <attested_by/>
+        <attested_date/>
+        <attributes/>
+        <business_unit/>
+        <can_print>false</can_print>
+        <category/>
+        <change_control/>
+        <checked_in/>
+        <checked_out/>
+        <cmdb_ot_entity/>
+        <color>false</color>
+        <colors/>
+        <comments/>
+        <company/>
+        <correlation_id/>
+        <cost/>
+        <cost_cc>USD</cost_cc>
+        <cost_center/>
+        <default_gateway/>
+        <delivery_date/>
+        <department/>
+        <discovery_source/>
+        <dns_domain/>
+        <due/>
+        <due_in/>
+        <duplicate_of/>
+        <environment/>
+        <fault_count>0</fault_count>
+        <first_discovered/>
+        <fqdn/>
+        <gl_account/>
+        <hardware_status>installed</hardware_status>
+        <hardware_substatus/>
+        <horizontal_resolution/>
+        <install_date/>
+        <install_status>1</install_status>
+        <internet_facing>true</internet_facing>
+        <invoice_number/>
+        <ip_address>192.168.1.167</ip_address>
+        <justification/>
+        <last_discovered/>
+        <lease_id/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <location/>
+        <mac_address/>
+        <maintenance_schedule/>
+        <managed_by/>
+        <managed_by_group/>
+        <manufacturer/>
+        <model_id/>
+        <model_number/>
+        <monitor>false</monitor>
+        <most_frequent_user/>
+        <name>Margaret Knight</name>
+        <operational_status>1</operational_status>
+        <order_date/>
+        <owned_by/>
+        <paper/>
+        <pcl>false</pcl>
+        <po_number/>
+        <postscript>false</postscript>
+        <ppm/>
+        <print_type>Laser</print_type>
+        <purchase_date/>
+        <resolution_units/>
+        <schedule/>
+        <serial_number/>
+        <short_description/>
+        <skip_sync>false</skip_sync>
+        <start_date/>
+        <subcategory/>
+        <support_group/>
+        <supported_by/>
+        <sys_class_name>x_258747_octoprint_3d_printer</sys_class_name>
+        <sys_class_path>/!!/!2/!*/!$</sys_class_path>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:10:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37a4751b97628150f944347e6253af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:10:30</sys_updated_on>
+        <unverified>false</unverified>
+        <use_count/>
+        <use_units/>
+        <vendor/>
+        <vertical_resolution/>
+        <warranty_expiration/>
+        <x_snc_makenow_current_makenow_event/>
+    </x_258747_octoprint_3d_printer>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:10:42</sys_created_on>
+        <sys_id>b0d4f51b97628150f944347e6253af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Margaret Knight</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_metadata_link_b0d4f51b97628150f944347e6253af4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:10:42</sys_updated_on>
+        <tablename>x_258747_octoprint_3d_printer</tablename>
+    </sys_metadata_link>
+</record_update>

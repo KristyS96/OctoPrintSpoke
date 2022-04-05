@@ -14,7 +14,7 @@
         <description>Action used to slice an STL file from the Model Files attachment. You can optionally print once slicing is completed.</description>
         <ih_action>false</ih_action>
         <internal_name>slice_file</internal_name>
-        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_name}}","label":"action➛File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer}}","label":"action➛3D Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.ip_address}}","label":"action➛3D Printer➛IP Address","type":"action","ref":"","reference_display":"IP Address","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{action.stl_file_name}}","label":"action➛STL File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.stl_file_path}}","label":"action➛3D Model File","type":"action","ref":"","reference_display":"3D Model File","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"c196688a-93a5-4595-ab48-817684e87f59"}},{"name":"{{action.print_file_}}","label":"action➛Print File?","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.current_print_profile}}","label":"action➛3D Printer➛Current Print Profile","type":"action","ref":"","reference_display":"Current Print Profile","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"current_print_profile","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.name}}","label":"action➛3D Model File➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.sys_id}}","label":"action➛3D Model File➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.download_url}}","label":"action➛3D Model File➛Download URL","type":"action","ref":"","reference_display":"Download URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"download_url","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.file_url}}","label":"action➛3D Model File➛File URL","type":"action","ref":"","reference_display":"File URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"file_url","choices":null,"attributes":{}},{"name":"{{action.task}}","label":"action➛Task","type":"action","ref":"","reference_display":"Task","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ip_address}}","label":"action➛IP Address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_download_url}}","label":"action➛File Download URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Select file and print➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].variable}}","label":"step➛Trim file name➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].filename}}","label":"step➛Trim file name➛fileName","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6fcd184a-47cc-4753-aae3-341c0ace28af].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].variable}}","label":"step➛Get defaults from Properties➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].slicer}}","label":"step➛Get defaults from Properties➛Slicer","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].location}}","label":"step➛Get defaults from Properties➛Location","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record.sys_id}}","label":"step➛Create Record step➛MID Server Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"ecc_agent_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].variable}}","label":"step➛Copy attachment➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].att_id}}","label":"step➛Copy attachment➛att_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].payload}}","label":"step➛Copy attachment➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[86957f12-2607-48cb-97a7-5afd3b7fbbb1].sn_auth_token}}","label":"step➛Download STL file➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[a22d12b9-3856-46e7-ab38-05d1ea8e5689].sn_auth_token}}","label":"step➛Download STL➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record}}","label":"step➛Create Record step➛MID Server Attachment Record","type":"step","ref":"ecc_agent_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].gcode_file}}","label":"step➛Get defaults from Properties➛GCODE File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[cd4ad005-c955-4ff4-be64-299c89ce2335].output}}","label":"step➛Download STL➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].current_state}}","label":"step➛Script step➛Current State","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].bed_temp}}","label":"step➛Script step➛Bed Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].tool_temp}}","label":"step➛Script step➛Tool Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].sd_status}}","label":"step➛Script step➛SD Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[136eb63d-8560-4bf0-9d83-82c607576e99].root.refs.download}}","label":"step➛JSON Parser step➛root➛refs➛download","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].stl_file}}","label":"step➛Get defaults from Properties➛STL File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_name}}","label":"action➛File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer}}","label":"action➛3D Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.ip_address}}","label":"action➛3D Printer➛IP Address","type":"action","ref":"","reference_display":"IP Address","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{action.stl_file_name}}","label":"action➛STL File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.stl_file_path}}","label":"action➛3D Model File","type":"action","ref":"","reference_display":"3D Model File","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"c196688a-93a5-4595-ab48-817684e87f59"}},{"name":"{{action.print_file_}}","label":"action➛Print File?","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.current_print_profile}}","label":"action➛3D Printer➛Current Print Profile","type":"action","ref":"","reference_display":"Current Print Profile","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"current_print_profile","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.name}}","label":"action➛3D Model File➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.sys_id}}","label":"action➛3D Model File➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.download_url}}","label":"action➛3D Model File➛Download URL","type":"action","ref":"","reference_display":"Download URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"download_url","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.file_url}}","label":"action➛3D Model File➛File URL","type":"action","ref":"","reference_display":"File URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"file_url","choices":null,"attributes":{}},{"name":"{{action.task}}","label":"action➛Task","type":"action","ref":"","reference_display":"Task","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ip_address}}","label":"action➛IP Address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_download_url}}","label":"action➛File Download URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.ip_address}}","label":"action➛Printer➛IP Address","type":"action","ref":"","reference_display":"IP Address","base_type":"string","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Select file and print➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].variable}}","label":"step➛Trim file name➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].filename}}","label":"step➛Trim file name➛fileName","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6fcd184a-47cc-4753-aae3-341c0ace28af].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].variable}}","label":"step➛Get defaults from Properties➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].slicer}}","label":"step➛Get defaults from Properties➛Slicer","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].location}}","label":"step➛Get defaults from Properties➛Location","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record.sys_id}}","label":"step➛Create Record step➛MID Server Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"ecc_agent_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].variable}}","label":"step➛Copy attachment➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].att_id}}","label":"step➛Copy attachment➛att_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].payload}}","label":"step➛Copy attachment➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[86957f12-2607-48cb-97a7-5afd3b7fbbb1].sn_auth_token}}","label":"step➛Download STL file➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[a22d12b9-3856-46e7-ab38-05d1ea8e5689].sn_auth_token}}","label":"step➛Download STL➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record}}","label":"step➛Create Record step➛MID Server Attachment Record","type":"step","ref":"ecc_agent_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].gcode_file}}","label":"step➛Get defaults from Properties➛GCODE File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[cd4ad005-c955-4ff4-be64-299c89ce2335].output}}","label":"step➛Download STL➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].current_state}}","label":"step➛Script step➛Current State","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].bed_temp}}","label":"step➛Script step➛Bed Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].tool_temp}}","label":"step➛Script step➛Tool Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].sd_status}}","label":"step➛Script step➛SD Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[136eb63d-8560-4bf0-9d83-82c607576e99].root.refs.download}}","label":"step➛JSON Parser step➛root➛refs➛download","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].stl_file}}","label":"step➛Get defaults from Properties➛STL File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>5c6a568b1b4ffc10b4a920a3604bcba8</master_snapshot>
         <name>Slice file</name>
         <natlang/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4cca4dc34747bc10b2619cd3846d4350</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Slice file</sys_name>
         <sys_overrides/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4cca4dc34747bc10b2619cd3846d4350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:52</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -148,10 +148,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-11 21:02:07</sys_created_on>
         <sys_id>0082528b1b0ffc10b4a920a3604bcb54</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-13 21:49:17</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0082528b1b0ffc10b4a920a3604bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -213,15 +213,29 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>0082528b1b0ffc10b4a920a3604bcb54</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>af6c39d78722cd10b0ab7518cebb350c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <value>9c1739c797264150f944347e6253afba</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0082528b1b0ffc10b4a920a3604bcb54</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-11 21:02:08</sys_created_on>
         <sys_id>cc82528b1b0ffc10b4a920a3604bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 21:02:08</sys_updated_on>
-        <value>define_connection_inline</value>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <value>use_connection_alias</value>
         <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0082528b1b0ffc10b4a920a3604bcb54"/>
@@ -262,6 +276,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0082528b1b0ffc10b4a920a3604bcb54</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>eb6c39d78722cd10b0ab7518cebb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>credential_alias</field>
         <id>0082528b1b0ffc10b4a920a3604bcb54</id>
         <sys_created_by>admin</sys_created_by>
@@ -291,11 +317,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-11 21:02:08</sys_created_on>
         <sys_id>4882528b1b0ffc10b4a920a3604bcb63</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-12 16:59:23</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>{{action.ip_address}}</value>
+        <value>{{action.printer.ip_address}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>mid_application</field>
@@ -330,10 +356,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-11 21:02:08</sys_created_on>
         <sys_id>0882528b1b0ffc10b4a920a3604bcb72</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-13 21:56:58</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0882528b1b0ffc10b4a920a3604bcb72"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -414,10 +440,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-11 21:02:08</sys_created_on>
         <sys_id>4c82528b1b0ffc10b4a920a3604bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 21:02:08</sys_updated_on>
-        <value>http://192.168.1.101</value>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
+        <value>http://localhost</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -697,7 +723,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:31:56</sys_updated_on>
@@ -728,9 +754,9 @@
         <sys_id>4082528b1b0ffc10b4a920a3604bcb94</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:02:08</sys_updated_on>
@@ -754,10 +780,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 16:01:48</sys_created_on>
         <sys_id>23d3269047fbf090b2619cd3846d4395</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:51</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23d3269047fbf090b2619cd3846d4395"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -768,10 +794,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 16:12:24</sys_created_on>
         <sys_id>7e466ad447fbf090b2619cd3846d4319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:24</sys_updated_on>
-        <value>define_connection_inline</value>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
+        <value>use_connection_alias</value>
         <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -787,6 +813,20 @@
         <sys_updated_on>2021-11-09 16:01:48</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>23d3269047fbf090b2619cd3846d4395</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:57</sys_created_on>
+        <sys_id>b36c39d78722cd10b0ab7518cebb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
+        <value>9c1739c797264150f944347e6253afba</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -885,6 +925,18 @@ done</value>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>23d3269047fbf090b2619cd3846d4395</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:57</sys_created_on>
+        <sys_id>bf6c39d78722cd10b0ab7518cebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>credential_alias</field>
         <id>23d3269047fbf090b2619cd3846d4395</id>
         <sys_created_by>admin</sys_created_by>
@@ -965,10 +1017,10 @@ done</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-13 21:20:55</sys_created_on>
         <sys_id>76f9287747cfb050b2619cd3846d433e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:51</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=76f9287747cfb050b2619cd3846d433e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -979,10 +1031,10 @@ done</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-13 21:20:55</sys_created_on>
         <sys_id>3ef9287747cfb050b2619cd3846d4348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-13 21:20:55</sys_updated_on>
-        <value>define_connection_inline</value>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <value>use_connection_alias</value>
         <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1012,6 +1064,20 @@ done</value>
         <sys_updated_on>2021-10-13 21:20:55</sys_updated_on>
         <value>eeab973fd7802200bdbaee5b5e610381</value>
         <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>76f9287747cfb050b2619cd3846d433e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>ab6c39d78722cd10b0ab7518cebb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <value>9c1739c797264150f944347e6253afba</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1110,6 +1176,18 @@ done</value>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>76f9287747cfb050b2619cd3846d433e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>e36c39d78722cd10b0ab7518cebb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>credential_alias</field>
         <id>76f9287747cfb050b2619cd3846d433e</id>
         <sys_created_by>admin</sys_created_by>
@@ -1139,11 +1217,11 @@ done</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-13 21:20:55</sys_created_on>
         <sys_id>76f9287747cfb050b2619cd3846d4347</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-13 21:20:55</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
-        <value>{{action.ip_address}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>long_running</field>
@@ -1191,7 +1269,7 @@ done</value>
         <sys_created_on>2021-10-11 16:09:52</sys_created_on>
         <sys_id>8f9f01074787bc10b2619cd3846d436d</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-14 13:38:44</sys_updated_on>
     </sys_hub_step_instance>
@@ -1243,18 +1321,6 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8f9f01074787bc10b2619cd3846d436d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8f9f01074787bc10b2619cd3846d436d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-11 16:09:52</sys_created_on>
-        <sys_id>4f9f01074787bc10b2619cd3846d4386</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fileName</field>
         <id>8f9f01074787bc10b2619cd3846d436d</id>
         <sys_created_by>admin</sys_created_by>
@@ -1265,18 +1331,6 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_updated_on>2021-10-12 16:59:23</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_8f9f01074787bc10b2619cd3846d436d</table>
         <value>{{action.file_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>8f9f01074787bc10b2619cd3846d436d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-11 16:09:52</sys_created_on>
-        <sys_id>079f01074787bc10b2619cd3846d4387</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task</field>
@@ -1359,7 +1413,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:23</sys_updated_on>
@@ -1440,7 +1494,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:02:07</sys_updated_on>
@@ -1522,7 +1576,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
@@ -1603,7 +1657,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:49:17</sys_updated_on>
@@ -1684,7 +1738,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
@@ -1765,7 +1819,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:02:07</sys_updated_on>
@@ -1796,9 +1850,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>479f01074787bc10b2619cd3846d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
@@ -1819,9 +1873,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>7772528b1b0ffc10b4a920a3604bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:02:07</sys_updated_on>
@@ -1842,9 +1896,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>cf9f01074787bc10b2619cd3846d4382</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:09:52</sys_updated_on>
@@ -1865,9 +1919,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>da7038734703f050b2619cd3846d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:49:17</sys_updated_on>
@@ -1892,7 +1946,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 18:33:08</sys_created_on>
         <sys_id>f89340bf1b0ff050b4a920a3604bcb49</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-09 16:01:48</sys_updated_on>
     </sys_hub_step_instance>
@@ -2058,7 +2112,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:08</sys_updated_on>
@@ -2089,16 +2143,98 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>819340bf1b0ff050b4a920a3604bcb58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:08</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=4cca4dc34747bc10b2619cd3846d4350^sys_idNOT IN5d6d85034787bc10b2619cd3846d438c,758426d31b4b7050b4a920a3604bcb35,afb81e9f1bc77050b4a920a3604bcbcf,f18426d31b4b7050b4a920a3604bcb3e,f58426d31b4b7050b4a920a3604bcb45"/>
+    <sys_hub_action_input action="delete_multiple" query="model=4cca4dc34747bc10b2619cd3846d4350^sys_idNOT IN536cf5d78722cd10b0ab7518cebb35d2,5d6d85034787bc10b2619cd3846d438c,758426d31b4b7050b4a920a3604bcb35,afb81e9f1bc77050b4a920a3604bcbcf,f18426d31b4b7050b4a920a3604bcb3e,f58426d31b4b7050b4a920a3604bcb45"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=f8483cab-4c49-4e9b-a972-95b255aa792b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_258747_octoprint_3d_printer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>printer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Printer</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Slice file">4cca4dc34747bc10b2619cd3846d4350</model>
+        <model_id>4cca4dc34747bc10b2619cd3846d4350</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_4cca4dc34747bc10b2619cd3846d4350</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_258747_octoprint_3d_printer">x_258747_octoprint_3d_printer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>536cf5d78722cd10b0ab7518cebb35d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=536cf5d78722cd10b0ab7518cebb35d2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2165,7 +2301,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -2247,7 +2383,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -2329,7 +2465,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:23</sys_updated_on>
@@ -2411,7 +2547,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -2493,7 +2629,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -2574,14 +2710,14 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-12 12:49:28</sys_created_on>
         <sys_id>455ba9131bc37050b4a920a3604bcb7b</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:52</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2659,14 +2795,14 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-12 12:49:28</sys_created_on>
         <sys_id>495ba9131bc37050b4a920a3604bcb83</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 16:12:52</sys_updated_on>
+        <sys_updated_on>2022-04-04 13:43:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2748,7 +2884,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:00:13</sys_updated_on>
@@ -2833,7 +2969,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:08</sys_updated_on>
@@ -2918,7 +3054,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:00:13</sys_updated_on>
@@ -2947,7 +3083,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_updated_on>2021-10-11 15:52:38</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e6abc54f4747bc10b2619cd3846d434f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4cca4dc34747bc10b2619cd3846d4350^sys_idNOT IN318426d31b4b7050b4a920a3604bcb44,358426d31b4b7050b4a920a3604bcb4b,3d8426d31b4b7050b4a920a3604bcb3c,d96d85034787bc10b2619cd3846d4398,e3b81e9f1bc77050b4a920a3604bcbdb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4cca4dc34747bc10b2619cd3846d4350^sys_idNOT IN318426d31b4b7050b4a920a3604bcb44,358426d31b4b7050b4a920a3604bcb4b,3d8426d31b4b7050b4a920a3604bcb3c,ab6cf5d78722cd10b0ab7518cebb35d9,d96d85034787bc10b2619cd3846d4398,e3b81e9f1bc77050b4a920a3604bcbdb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>file_name</element>
         <help/>
@@ -2962,9 +3098,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>318426d31b4b7050b4a920a3604bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -2985,9 +3121,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>358426d31b4b7050b4a920a3604bcb4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
@@ -3008,12 +3144,35 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>3d8426d31b4b7050b4a920a3604bcb3c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>printer</element>
+        <help/>
+        <hint/>
+        <label>Printer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_4cca4dc34747bc10b2619cd3846d4350</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:43:56</sys_created_on>
+        <sys_id>ab6cf5d78722cd10b0ab7518cebb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 13:43:56</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3031,9 +3190,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>d96d85034787bc10b2619cd3846d4398</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:00:12</sys_updated_on>
@@ -3054,9 +3213,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>e3b81e9f1bc77050b4a920a3604bcbdb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:07:53</sys_updated_on>
@@ -3079,9 +3238,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>216d85034787bc10b2619cd3846d43e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:00:13</sys_updated_on>
@@ -3102,9 +3261,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>256d85034787bc10b2619cd3846d43d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 16:00:13</sys_updated_on>
@@ -3125,9 +3284,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>815ba9131bc37050b4a920a3604bcb82</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 12:49:28</sys_updated_on>
@@ -3148,9 +3307,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>855ba9131bc37050b4a920a3604bcb89</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 12:49:28</sys_updated_on>
@@ -3171,9 +3330,9 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_id>859340bf1b0ff050b4a920a3604bcb8f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:08</sys_updated_on>
@@ -3227,7 +3386,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-14 13:38:54</sys_updated_on>
@@ -3344,7 +3503,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>2c6a968b1b4ffc10b4a920a3604bcb06</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:49:21</sys_updated_on>
     </sys_hub_step_instance>
@@ -3526,7 +3685,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>2c6a968b1b4ffc10b4a920a3604bcb12</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:57:11</sys_updated_on>
     </sys_hub_step_instance>
@@ -3892,7 +4051,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -3922,10 +4081,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>e46a968b1b4ffc10b4a920a3604bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Credential Value</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -3950,7 +4109,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:33</sys_created_on>
         <sys_id>d06a568b1b4ffc10b4a920a3604bcbdf</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-14 13:38:54</sys_updated_on>
     </sys_hub_step_instance>
@@ -4002,18 +4161,6 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d06a568b1b4ffc10b4a920a3604bcbdf"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d06a568b1b4ffc10b4a920a3604bcbdf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-11 21:36:34</sys_created_on>
-        <sys_id>dc6a968b1b4ffc10b4a920a3604bcb01</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fileName</field>
         <id>d06a568b1b4ffc10b4a920a3604bcbdf</id>
         <sys_created_by>admin</sys_created_by>
@@ -4024,18 +4171,6 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_updated_on>2021-10-12 16:59:55</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d06a568b1b4ffc10b4a920a3604bcbdf</table>
         <value>{{action.file_name}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d06a568b1b4ffc10b4a920a3604bcbdf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-11 21:36:34</sys_created_on>
-        <sys_id>a46a968b1b4ffc10b4a920a3604bcb02</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task</field>
@@ -4118,7 +4253,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -4199,7 +4334,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:33</sys_updated_on>
@@ -4281,7 +4416,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:33</sys_updated_on>
@@ -4362,7 +4497,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:49:21</sys_updated_on>
@@ -4443,7 +4578,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -4524,7 +4659,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:33</sys_updated_on>
@@ -4554,10 +4689,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>586a568b1b4ffc10b4a920a3604bcbfd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>GCODE File</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -4577,10 +4712,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:33</sys_created_on>
         <sys_id>5c6a568b1b4ffc10b4a920a3604bcbf0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Slicer</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:33</sys_updated_on>
@@ -4600,10 +4735,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>d06a568b1b4ffc10b4a920a3604bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Location</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -4623,11 +4758,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 21:49:21</sys_created_on>
         <sys_id>df70b8734703f050b2619cd3846d4358</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>STL File</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d06a568b1b4ffc10b4a920a3604bcbdf_stl_file_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:49:21</sys_updated_on>
         <url/>
@@ -4651,7 +4786,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 18:33:21</sys_created_on>
         <sys_id>d4a344bf1b0ff050b4a920a3604bcb16</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:20:59</sys_updated_on>
     </sys_hub_step_instance>
@@ -4817,7 +4952,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:22</sys_updated_on>
@@ -4847,11 +4982,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 18:33:22</sys_created_on>
         <sys_id>d0a344bf1b0ff050b4a920a3604bcb21</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>root</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d4a344bf1b0ff050b4a920a3604bcb16_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:22</sys_updated_on>
         <url/>
@@ -4875,7 +5010,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 21:20:59</sys_created_on>
         <sys_id>f7f9a87747cfb050b2619cd3846d434f</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 21:27:05</sys_updated_on>
     </sys_hub_step_instance>
@@ -5094,7 +5229,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -5176,7 +5311,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -5258,7 +5393,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -5340,7 +5475,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -5422,7 +5557,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
@@ -5507,7 +5642,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:22</sys_updated_on>
@@ -5592,7 +5727,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -5677,7 +5812,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -5762,7 +5897,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-14 13:38:55</sys_updated_on>
@@ -5847,7 +5982,7 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-14 13:38:55</sys_updated_on>
@@ -5890,10 +6025,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:33</sys_created_on>
         <sys_id>5c6a568b1b4ffc10b4a920a3604bcbdb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Print File?</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:33</sys_updated_on>
@@ -5913,11 +6048,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 16:59:54</sys_created_on>
         <sys_id>6da4aad31b4b7050b4a920a3604bcb85</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>File Name</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5c6a568b1b4ffc10b4a920a3604bcba8_file_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
         <url/>
@@ -5936,11 +6071,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 16:59:54</sys_created_on>
         <sys_id>e1a4aad31b4b7050b4a920a3604bcb9e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Task</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5c6a568b1b4ffc10b4a920a3604bcba8_task_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
         <url/>
@@ -5959,11 +6094,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 16:59:54</sys_created_on>
         <sys_id>e9a4aad31b4b7050b4a920a3604bcb7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>IP Address</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5c6a568b1b4ffc10b4a920a3604bcba8_ip_address_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
         <url/>
@@ -5982,11 +6117,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 16:59:54</sys_created_on>
         <sys_id>eda4aad31b4b7050b4a920a3604bcb8c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>File Download URL</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5c6a568b1b4ffc10b4a920a3604bcba8_file_download_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 16:59:54</sys_updated_on>
         <url/>
@@ -6007,10 +6142,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>206a968b1b4ffc10b4a920a3604bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -6030,11 +6165,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-13 18:33:22</sys_created_on>
         <sys_id>54a344bf1b0ff050b4a920a3604bcb3c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Sliced File Path</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a568b1b4ffc10b4a920a3604bcba8_sliced_file_path_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 18:33:22</sys_updated_on>
         <url/>
@@ -6053,11 +6188,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 15:36:21</sys_created_on>
         <sys_id>6d8152931bc77050b4a920a3604bcbff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Download Results</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a568b1b4ffc10b4a920a3604bcba8_dl_results_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 15:36:21</sys_updated_on>
         <url/>
@@ -6076,10 +6211,10 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-11 21:36:34</sys_created_on>
         <sys_id>a06a968b1b4ffc10b4a920a3604bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-11 21:36:34</sys_updated_on>
@@ -6099,11 +6234,11 @@ var slicer = "slic3r";//gs.getProperty('x_258747_octoprint.default_slicer');
         <sys_created_on>2021-10-12 15:36:21</sys_created_on>
         <sys_id>e58192931bc77050b4a920a3604bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_name>Slice Results</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5c6a568b1b4ffc10b4a920a3604bcba8_slice_results_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-12 15:36:21</sys_updated_on>
         <url/>

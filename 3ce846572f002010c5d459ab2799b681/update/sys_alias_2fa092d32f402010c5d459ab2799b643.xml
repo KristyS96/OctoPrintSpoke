@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
     <sys_alias action="INSERT_OR_UPDATE">
-        <configuration_template display_value="API Key Demo Configuration">711fa567b70333008321e916de11a9cf</configuration_template>
+        <configuration_template display_value="">711fa567b70333008321e916de11a9cf</configuration_template>
         <connection_type>http_connection</connection_type>
-        <id>x_258747_octoprint.OctoPrint_Connection</id>
+        <id>x_258747_octoprint.OctoPrint_HTTP_Connection_Alias</id>
         <multiple_connections>false</multiple_connections>
-        <name>OctoPrint Connection</name>
+        <name>OctoPrint HTTP Connection Alias</name>
         <parent/>
         <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-29 16:14:56</sys_created_on>
         <sys_id>2fa092d32f402010c5d459ab2799b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_258747_octoprint.OctoPrint_Connection</sys_name>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_258747_octoprint.OctoPrint_HTTP_Connection_Alias</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_alias_2fa092d32f402010c5d459ab2799b643</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 16:14:56</sys_updated_on>
+        <sys_updated_on>2022-04-04 14:07:45</sys_updated_on>
         <type>connection</type>
     </sys_alias>
 </record_update>

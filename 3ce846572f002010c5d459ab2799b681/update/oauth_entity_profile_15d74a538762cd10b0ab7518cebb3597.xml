@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Thingiverse default_profile</name>
+        <oauth_entity display_value="Thingiverse">453686138762cd10b0ab7518cebb35bb</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 14:33:46</sys_created_on>
+        <sys_id>15d74a538762cd10b0ab7518cebb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thingiverse default_profile</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>oauth_entity_profile_15d74a538762cd10b0ab7518cebb3597</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 14:33:46</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
