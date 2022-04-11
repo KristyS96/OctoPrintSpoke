@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Add a new printer">cb09bde59736c950f944347e6253af2a</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>octoprint_api_key</name>
+        <order>300</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref display_value="OctoPrint API Key">3f5e98c897f60550f944347e6253af53</published_ref>
+        <question_text>OctoPrint API Key</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_258747_octoprint_3d_printer</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 13:15:29</sys_created_on>
+        <sys_id>0b09bde59736c950f944347e6253af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OctoPrint API Key</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>item_option_new_0b09bde59736c950f944347e6253af70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 13:15:29</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=0b09bde59736c950f944347e6253af70"/>
+    <fx_price action="DELETE" query="id=0b09bde59736c950f944347e6253af70"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>0b09bde59736c950f944347e6253af70</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 13:15:29</sys_created_on>
+        <sys_id>4709bde59736c950f944347e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 13:15:29</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>0b09bde59736c950f944347e6253af70</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 13:15:29</sys_created_on>
+        <sys_id>0b09bde59736c950f944347e6253af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 13:15:29</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</application>
+        <file_path/>
+        <instance_id>4df5529edb4acd504d2bac44d496192e</instance_id>
+        <instance_name>makenowdev</instance_name>
+        <name>item_option_new_0b09bde59736c950f944347e6253af70</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add a new printer">cb09bde59736c950f944347e6253af2a</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>octoprint_api_key</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref display_value="OctoPrint API Key">3f5e98c897f60550f944347e6253af53</published_ref><question_text>OctoPrint API Key</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>x_258747_octoprint_3d_printer</record_producer_table><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-11 13:15:29</sys_created_on><sys_id>0b09bde59736c950f944347e6253af70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OctoPrint API Key</sys_name><sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package><sys_policy/><sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope><sys_update_name>item_option_new_0b09bde59736c950f944347e6253af70</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-11 13:15:29</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=0b09bde59736c950f944347e6253af70"/><fx_price action="delete_multiple" query="id=0b09bde59736c950f944347e6253af70"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>0b09bde59736c950f944347e6253af70</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-11 13:15:29</sys_created_on><sys_id>4709bde59736c950f944347e6253af73</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-11 13:15:29</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>0b09bde59736c950f944347e6253af70</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-11 13:15:29</sys_created_on><sys_id>0b09bde59736c950f944347e6253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-11 13:15:29</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-847283140</payload_hash>
+        <record_name>OctoPrint API Key</record_name>
+        <reverted_from/>
+        <source>c7b9a2d687a60d10b0ab7518cebb351e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 13:15:29</sys_created_on>
+        <sys_id>8b09bde59736c950f944347e6253af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18018c3d8940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 13:15:29</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>0309bde5fb36c950cd1f8c399b068976</update_guid>
+        <update_guid_history>0309bde5fb36c950cd1f8c399b068976:-847283140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="OctoPrint API Key">152971299736c950f944347e6253af1f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 13:15:55</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>061d97794816487a953946c37fac6e04</sys_id>
+        <sys_metadata>0b09bde59736c950f944347e6253af70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OctoPrint API Key</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_parent display_value="">cb09bde59736c950f944347e6253af2a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_update_name>item_option_new_0b09bde59736c950f944347e6253af70</sys_update_name>
+        <sys_update_version display_value="item_option_new_0b09bde59736c950f944347e6253af70">8b09bde59736c950f944347e6253af76</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 13:15:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

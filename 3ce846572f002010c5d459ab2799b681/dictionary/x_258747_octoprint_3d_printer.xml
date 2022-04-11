@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci_printer" label="3D Printer" max_length="40" name="x_258747_octoprint_3d_printer" sizeclass="1" type="collection">
-        <element label="Associated MID" max_length="32" name="associated_mid" reference="ecc_agent" type="reference"/>
+    <element audit="true" extends="cmdb_ci_printer" label="3D Printer" max_length="40" name="x_258747_octoprint_3d_printer" sizeclass="3" type="collection">
+        <element label="Associated MID" mandatory="true" max_length="32" name="associated_mid" reference="ecc_agent" type="reference"/>
+        <element choice="1" label="Print Status" max_length="255" name="print_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Finishing" value="Finishing"/>
+                <element inactive_on_update="false" label="Operational" value="Operational"/>
+                <element inactive_on_update="false" label="Printing" value="Printing"/>
+            </choice>
+        </element>
     </element>
 </database>
