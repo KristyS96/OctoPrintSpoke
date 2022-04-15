@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://www.thingiverse.com/login/oauth/authorize?client_id=979a39c5aa2d107b8955&amp;response_type=token</auth_url>
+        <certificate_url/>
+        <client_id>979a39c5aa2d107b8955</client_id>
+        <client_secret>﷞﷟﷒acc8035697c20110f944347e6253af61﷬﷔1﷬﷭eBNf6ShGoGT1bY7v5zo4sw==oZA14LBQqZTqODNiO2P9S-qLk5r7oBHHehgDXVS8iDCDvKPQjtHurXC8DaL3cmOD﷮﷯</client_secret>
+        <client_uuid>c13686138762cd10b0ab7518cebb35bb</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Thingiverse</name>
+        <oauth_api_script display_value="OAuthAccessToken">08cbde338f20020026935f2a37bdee2b</oauth_api_script>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://makenowdev.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url>http://www.thingiverse.com/login/oauth/access_token?response_type=token</revoke_token_url>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 14:33:45</sys_created_on>
+        <sys_id>453686138762cd10b0ab7518cebb35bb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Thingiverse</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>oauth_entity_453686138762cd10b0ab7518cebb35bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 15:12:30</sys_updated_on>
+        <token_url>http://www.thingiverse.com/login/oauth/access_token?response_type=token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

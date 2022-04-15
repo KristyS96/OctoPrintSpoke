@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function actionOK(){
+    var thing = gel('thingID').value;
+    if (thing == '') {
+        alert(getMessage("Please enter a Thing ID"));
+        return false;
+	}
+	var c = gel('cancel_or_submit');
+    c.value = "submit";
+	return true;
+}
+
+function cancel(){
+	var c = gel('cancel_or_submit');
+    c.value = "cancel";
+	return true;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_258747_octoprint_import_from_external.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<g:ui_form>
+<input type="hidden" id="cancel_or_submit" name="cancel_or_submit" value=""/>
+<!-- <input type="hidden" id="item" name="item" value="${sysparm_sys_id}"/>
+<input type="hidden" id="name" name="name" value="${sysparm_display_name}"/>
+<input type="hidden" id="type" name="type" value="${sysparm_type}"/>
+<input type="hidden" id="type" name="catalog" value="${sysparm_catalog}"/> -->
+
+<table width="100%">
+
+        <tr>
+                
+					<td><g:ui_input_field label="Thing ID" name="thingID" value="" size="50"/>
+		</td>
+        </tr>
+
+</table>
+	<br/>
+	<div id="dialogbuttons" style="float:right">
+		<g:dialog_buttons_ok_cancel ok="return actionOK();" cancel="return cancel();"/>
+	</div>
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>import_from_external</name>
+        <processing_script><![CDATA[function importExternal() {
+    try {
+		var inputs = {};
+		inputs['thingid'] = thingID; // String 
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		// sn_fd.FlowAPI.getRunner().subflow('x_258747_print_fac.import_model_from_thingiverse').inBackground().withInputs(inputs).run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		var result = sn_fd.FlowAPI.getRunner().subflow('x_258747_octoprint.import_model_from_external_source').inForeground().withInputs(inputs).run();
+		var outputs = result.getOutputs();
+			response.sendRedirect("x_258747_octoprint_3d_print_model.do?sys_id=" + outputs.modelid);
+
+		// Current subflow has no outputs defined.		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+
+}
+importExternal();]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 13:54:19</sys_created_on>
+        <sys_id>5eae795b8722cd10b0ab7518cebb3531</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>import_from_external</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_ui_page_5eae795b8722cd10b0ab7518cebb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 21:19:08</sys_updated_on>
+    </sys_ui_page>
+</record_update>

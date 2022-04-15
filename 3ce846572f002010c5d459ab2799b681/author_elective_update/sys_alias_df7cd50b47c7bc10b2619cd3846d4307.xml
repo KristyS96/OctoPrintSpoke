@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_258747_octoprint.RPi_Credential_Alias</id>
+        <multiple_connections>false</multiple_connections>
+        <name>RPi Credential Alias</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-11 17:06:20</sys_created_on>
+        <sys_id>df7cd50b47c7bc10b2619cd3846d4307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_258747_octoprint.RPi_Credential_Alias</sys_name>
+        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_alias_df7cd50b47c7bc10b2619cd3846d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-11 17:06:37</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</application>
+        <file_path/>
+        <instance_id>4df5529edb4acd504d2bac44d496192e</instance_id>
+        <instance_name>makenowdev</instance_name>
+        <name>sys_alias_df7cd50b47c7bc10b2619cd3846d4307</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_258747_octoprint.RPi_Credential_Alias</id>
+        <multiple_connections>false</multiple_connections>
+        <name>RPi Credential Alias</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-11 17:06:20</sys_created_on>
+        <sys_id>df7cd50b47c7bc10b2619cd3846d4307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_258747_octoprint.RPi_Credential_Alias</sys_name>
+        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_alias_df7cd50b47c7bc10b2619cd3846d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-11 17:06:37</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+</record_update>]]></payload>
+        <payload_hash>-1178037637</payload_hash>
+        <record_name>x_258747_octoprint.RPi_Credential_Alias</record_name>
+        <reverted_from display_value="sys_alias_df7cd50b47c7bc10b2619cd3846d4307">28b443de870e0110b0ab7518cebb3505</reverted_from>
+        <source>a0b443de870e0110b0ab7518cebb3503</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 18:47:37</sys_created_on>
+        <sys_id>9b6bab7a877e4510b0ab7518cebb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1802e8d5a480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-15 18:47:37</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>34329bfe5bfa45105cf2cac50cc84c4b</update_guid>
+        <update_guid_history>34329bfe5bfa45105cf2cac50cc84c4b:-105898013,e4b443dec70e01107f34c82a7b344505:-1178037637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 18:57:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>a89236884ca843e0a61bccda6a03f100</sys_id>
+        <sys_metadata>df7cd50b47c7bc10b2619cd3846d4307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_258747_octoprint.RPi_Credential_Alias</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_update_name>sys_alias_df7cd50b47c7bc10b2619cd3846d4307</sys_update_name>
+        <sys_update_version display_value="sys_alias_df7cd50b47c7bc10b2619cd3846d4307">9b6bab7a877e4510b0ab7518cebb358f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-15 18:57:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Key Attributes" section_id="c73aaed687a60d10b0ab7518cebb3557" sys_domain="global" table="x_258747_octoprint_3d_printer" version="3" view="cmdb_browse">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>073aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>873aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0b3aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8b3aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0f3aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8f3aaed687a60d10b0ab7518cebb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>support_group</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>033aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managed_by</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>833aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>073aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>873aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0b3aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supported_by</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8b3aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managed_by_group</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0f3aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8f3aaed687a60d10b0ab7518cebb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>environment</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>033aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>833aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>073aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>873aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0b3aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8b3aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>0f3aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_number</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>8f3aaed687a60d10b0ab7518cebb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>033aaed687a60d10b0ab7518cebb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>833aaed687a60d10b0ab7518cebb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_id>073aaed687a60d10b0ab7518cebb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_258747_octoprint_3d_printer" sys_domain="global" view="2713005f537320100764ddeeff7b1269">c73aaed687a60d10b0ab7518cebb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Key Attributes</caption>
+            <header>false</header>
+            <name>x_258747_octoprint_3d_printer</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-01 14:30:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c73aaed687a60d10b0ab7518cebb3557</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_258747_octoprint_3d_printer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_ui_section_c73aaed687a60d10b0ab7518cebb3557</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-01 14:30:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="CMDB - Workspace" name="cmdb_browse">2713005f537320100764ddeeff7b1269</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

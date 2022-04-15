@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml,JSON,form/multipart-data</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>printStatus</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    //gs.info(request);
+    // implement resource here
+    var str = request.body.dataString;
+    //gs.info(str);
+    var obj = JSON.parse(str);
+
+    var topic = obj.topic;
+    var file = obj.extra.name;
+    var time = obj.extra.time;
+    var printer = obj.deviceIdentifier;
+    var message = obj.message;
+    //gs.info(printer);
+    var printerStatus = obj.state.text;
+
+    //format time
+    var sec = parseInt(time, 10); // convert value to number if it's string
+    var hours = Math.floor(sec / 3600); // get hours
+    var minutes = Math.floor((sec - (hours * 3600)) / 60); // get minutes
+    var seconds = sec - (hours * 3600) - (minutes * 60); //  get seconds
+    // add 0 if value < 10; Example: 2 => 02
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+    if (seconds < 10) {
+        seconds = "0" + seconds;
+    }
+    time = hours + ':' + minutes + ':' + seconds; // Return is HH : MM : SS
+
+    //Task ID is prepended to the file name when a task is associated with a print job.
+    //We need this number to continue
+    if (file) {
+        var strArr = file.split('_');
+        var num = strArr[0];
+
+        var status;
+
+        switch (topic) {
+            case "Print Done":
+                status = 3;
+                topic = "Print Completed";
+                break;
+            case "Print Failed":
+                status = 4;
+                break;
+            case "Print Started":
+                status = 2;
+                printerStatus = "Printing";
+                break;
+            default:
+                status = 2;
+
+        }
+
+        gs.info(topic);
+        gs.info(status);
+
+        var grTask = new GlideRecord('task');
+        grTask.addQuery('number', num);
+        grTask.setLimit(1);
+        grTask.query();
+
+
+        while (grTask.next()) {
+            var grPrinter = new GlideRecord('x_258747_octoprint_3d_printer');
+            if (grPrinter.get(grTask.cmdb_ci)) { //addQuery('name', printer);
+                grPrinter.print_status = printerStatus;
+                grPrinter.update();
+            }
+            grTask.state = status;
+            grTask.work_notes = message;
+            grTask.calendar_duration = new GlideDuration(time);
+            grTask.update();
+        }
+
+        var body = {};
+        body.number = num;
+        body.ticketStatus = "State set to " + status + " based on topic: " + topic;
+
+        response.setBody(body);
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_258747_octoprint/octoprint</operation_uri>
+        <produces>application/json,application/xml,text/xml,JSON,form/multipart-data</produces>
+        <produces_customized>true</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-05 21:36:27</sys_created_on>
+        <sys_id>030270f397eac150f944347e6253afc0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>printStatus</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_ws_operation_030270f397eac150f944347e6253afc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-05 22:29:58</sys_updated_on>
+        <web_service_definition display_value="OctoPrint Webhook">b09138b397eac150f944347e6253afad</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

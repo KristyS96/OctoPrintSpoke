@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="model_source" table="x_258747_octoprint_3d_print_model" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>model_source</element>
+            <name>x_258747_octoprint_3d_print_model</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:49:51</sys_created_on>
+            <sys_id>46cd791b8722cd10b0ab7518cebb356d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>model_source</sys_name>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_choice_x_258747_octoprint_3d_print_model_model_source</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:49:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cults3D</label>
+            <language>en</language>
+            <name>x_258747_octoprint_3d_print_model</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8acd791b8722cd10b0ab7518cebb356c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:49:51</sys_updated_on>
+            <value>cults3d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom</label>
+            <language>en</language>
+            <name>x_258747_octoprint_3d_print_model</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ecdb91b8722cd10b0ab7518cebb35da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:49:51</sys_updated_on>
+            <value>custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>model_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thingiverse</label>
+            <language>en</language>
+            <name>x_258747_octoprint_3d_print_model</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 13:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6cdb91b8722cd10b0ab7518cebb35e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 13:49:51</sys_updated_on>
+            <value>thingiverse</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
