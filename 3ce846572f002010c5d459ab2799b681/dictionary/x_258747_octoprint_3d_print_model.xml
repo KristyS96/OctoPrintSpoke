@@ -2,6 +2,7 @@
     <element extends="cmdb_model" label="3D Print Model" max_length="40" name="x_258747_octoprint_3d_print_model" sizeclass="2" type="collection">
         <element label="Default print profile" max_length="32" name="default_print_profile" reference="x_258747_octoprint_st_slicer_profiles" type="reference"/>
         <element label="Direct URL" max_length="1024" name="direct_url" type="url"/>
+        <element label="GCODE File" max_length="40" name="gcode_file" type="file_attachment"/>
         <element choice="1" label="Model Source" max_length="40" name="model_source" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cults3D" sequence="10" value="cults3d"/>
