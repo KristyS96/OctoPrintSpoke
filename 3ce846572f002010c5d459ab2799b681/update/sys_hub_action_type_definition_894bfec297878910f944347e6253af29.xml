@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>894bfec297878910f944347e6253af29</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Print from 3D Model v2</sys_name>
         <sys_overrides/>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_894bfec297878910f944347e6253af29</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-25 17:56:26</sys_updated_on>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1491,10 +1491,10 @@ if(inputs.task)
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-25 17:47:01</sys_created_on>
         <sys_id>857d768697878910f944347e6253af9e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-25 17:47:02</sys_updated_on>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=857d768697878910f944347e6253af9e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1514,6 +1514,20 @@ if(inputs.task)
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>857d768697878910f944347e6253af9e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>2743c70e97878910f944347e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>857d768697878910f944347e6253af9e</document_key>
         <order>550</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -1528,6 +1542,34 @@ if(inputs.task)
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>857d768697878910f944347e6253af9e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>6343c70e97878910f944347e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <value>localhost</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>857d768697878910f944347e6253af9e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>af43c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <value>77321ffe87fa4510b0ab7518cebb3576</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>857d768697878910f944347e6253af9e</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -1538,6 +1580,20 @@ if(inputs.task)
         <sys_updated_on>2022-04-25 17:47:02</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>857d768697878910f944347e6253af9e</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>eb43c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=857d768697878910f944347e6253af9e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1565,6 +1621,30 @@ if(inputs.task)
         <value>mv {{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record.file_name}} {{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>857d768697878910f944347e6253af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>6b43c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>857d768697878910f944347e6253af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>e343c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>directory</field>
         <id>857d768697878910f944347e6253af9e</id>
         <sys_created_by>admin</sys_created_by>
@@ -1573,6 +1653,18 @@ if(inputs.task)
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-25 17:47:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>857d768697878910f944347e6253af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>a743c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
@@ -1587,6 +1679,30 @@ if(inputs.task)
         <sys_updated_on>2022-04-25 17:47:02</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>857d768697878910f944347e6253af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>6f43c70e97878910f944347e6253afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>857d768697878910f944347e6253af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:12:35</sys_created_on>
+        <sys_id>2343c70e97878910f944347e6253aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:12:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.3d_printer.associated_mid}}</value>
     </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=857d768697878910f944347e6253af9e"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=857d768697878910f944347e6253af9e"/>
@@ -2211,17 +2327,17 @@ if(inputs.task)
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Print from 3D Model v2">894bfec297878910f944347e6253af29</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"52cd72c697878910f944347e6253af28","name":"plan","plan_signature":null}}</plan>
-        <snapshot>4f9fbe0a97878910f944347e6253afe0</snapshot>
+        <snapshot>cf834f0e97878910f944347e6253af27</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-25 17:48:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52cd72c697878910f944347e6253af28</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-25 17:56:28</sys_updated_on>
+        <sys_updated_on>2022-04-25 18:13:41</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3393,12 +3509,26 @@ if(inputs.task)
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-25 17:48:25</sys_created_on>
         <sys_id>65cdfe8697878910f944347e6253afbd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-25 17:48:25</sys_updated_on>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65cdfe8697878910f944347e6253afbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65cdfe8697878910f944347e6253afbd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>03834f0e97878910f944347e6253af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>65cdfe8697878910f944347e6253afbd</document_key>
@@ -3412,6 +3542,20 @@ if(inputs.task)
         <sys_updated_on>2022-04-25 17:48:25</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65cdfe8697878910f944347e6253afbd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>4f834f0e97878910f944347e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <value>localhost</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3430,6 +3574,20 @@ if(inputs.task)
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>65cdfe8697878910f944347e6253afbd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>8b834f0e97878910f944347e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <value>77321ffe87fa4510b0ab7518cebb3576</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65cdfe8697878910f944347e6253afbd</document_key>
         <order>550</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -3440,6 +3598,20 @@ if(inputs.task)
         <sys_updated_on>2022-04-25 17:48:25</sys_updated_on>
         <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
         <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65cdfe8697878910f944347e6253afbd</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>c7834f0e97878910f944347e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=65cdfe8697878910f944347e6253afbd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3467,6 +3639,30 @@ if(inputs.task)
         <value>mv {{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record.file_name}} {{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>65cdfe8697878910f944347e6253afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>47834f0e97878910f944347e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>65cdfe8697878910f944347e6253afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>cf834f0e97878910f944347e6253af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>directory</field>
         <id>65cdfe8697878910f944347e6253afbd</id>
         <sys_created_by>admin</sys_created_by>
@@ -3475,6 +3671,18 @@ if(inputs.task)
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-25 17:48:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>65cdfe8697878910f944347e6253afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>83834f0e97878910f944347e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
     </sys_element_mapping>
@@ -3489,6 +3697,30 @@ if(inputs.task)
         <sys_updated_on>2022-04-25 17:48:25</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
         <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>65cdfe8697878910f944347e6253afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>4b834f0e97878910f944347e6253af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>65cdfe8697878910f944347e6253afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 18:13:38</sys_created_on>
+        <sys_id>0f834f0e97878910f944347e6253af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 18:13:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.3d_printer.associated_mid}}</value>
     </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=65cdfe8697878910f944347e6253afbd"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=65cdfe8697878910f944347e6253afbd"/>
