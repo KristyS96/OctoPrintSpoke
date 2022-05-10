@@ -3,92 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
+            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47f40e2287d34d10b0ab7518cebb35c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>984cb07f97eac150f944347e6253af6e</sys_id>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-09 13:12:58</sys_created_on>
+            <sys_id>07f40e2287d34d10b0ab7518cebb35c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-09 13:12:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>ip_address</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
+            <element>associated_mid</element>
+            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47f40e2287d34d10b0ab7518cebb35c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>104cb07f97eac150f944347e6253af6f</sys_id>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-09 13:12:58</sys_created_on>
+            <sys_id>0ff40e2287d34d10b0ab7518cebb35c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-09 13:12:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>manufacturer</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
+            <element>operational_status</element>
+            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47f40e2287d34d10b0ab7518cebb35c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>904cb07f97eac150f944347e6253af6f</sys_id>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-09 13:12:58</sys_created_on>
+            <sys_id>03f40e2287d34d10b0ab7518cebb35c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>model_id</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>144cb07f97eac150f944347e6253af6f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>colors</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>944cb07f97eac150f944347e6253af6f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-09 13:12:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>print_status</element>
-            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d84cb07f97eac150f944347e6253af6d</list_id>
+            <list_id display_value="x_258747_octoprint_3d_printer" element="NULL" name="x_258747_octoprint_3d_printer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47f40e2287d34d10b0ab7518cebb35c4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>5</position>
+            <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
-            <sys_id>184cb07f97eac150f944347e6253af6f</sys_id>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-09 13:12:58</sys_created_on>
+            <sys_id>07f40e2287d34d10b0ab7518cebb35c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-09 13:12:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -101,19 +71,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-05 22:20:30</sys_created_on>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-09 13:12:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d84cb07f97eac150f944347e6253af6d</sys_id>
+            <sys_id>47f40e2287d34d10b0ab7518cebb35c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_258747_octoprint_3d_printer</sys_name>
             <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
             <sys_policy/>
             <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
             <sys_update_name>sys_ui_list_x_258747_octoprint_3d_printer_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-05 22:20:30</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-09 13:12:58</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
