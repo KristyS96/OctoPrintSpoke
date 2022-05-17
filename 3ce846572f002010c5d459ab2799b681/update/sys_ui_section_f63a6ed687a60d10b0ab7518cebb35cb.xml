@@ -3,42 +3,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_status</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
-            <sys_id>a3bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>8a21170987a70550b0ab7518cebb358f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>octoprint_port</element>
+            <position>1</position>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>8e21170987a70550b0ab7518cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
-            <sys_id>27bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <position>2</position>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>8221170987a70550b0ab7518cebb3590</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_date</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-04-01 14:36:44</sys_created_on>
-            <sys_id>a7bba25a87a60d10b0ab7518cebb3525</sys_id>
+            <position>3</position>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>8621170987a70550b0ab7518cebb3590</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-04-01 14:36:44</sys_updated_on>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_snc_makenow_photo</element>
+            <position>4</position>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>8a21170987a70550b0ab7518cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">f63a6ed687a60d10b0ab7518cebb35cb</sys_ui_section>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

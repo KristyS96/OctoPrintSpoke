@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>2af1622e87174d10b0ab7518cebb35a8</sys_id>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>7521170987a70550b0ab7518cebb3558</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
             <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,83 +18,55 @@
             <element>associated_mid</element>
             <position>1</position>
             <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>aef1a22e87174d10b0ab7518cebb3531</sys_id>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>7921170987a70550b0ab7518cebb3558</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
             <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_snc_makenow_photo</element>
-            <position>2</position>
-            <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>a2f1a22e87174d10b0ab7518cebb3532</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
-            <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>a6f1a22e87174d10b0ab7518cebb3532</sys_id>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>7d21170987a70550b0ab7518cebb3558</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
             <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>operational_status</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>aaf1a22e87174d10b0ab7518cebb3532</sys_id>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>7121170987a70550b0ab7518cebb3559</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
             <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ip_address</element>
-            <position>5</position>
-            <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>aef1a22e87174d10b0ab7518cebb3532</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
-            <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>print_status</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>kristy</sys_created_by>
-            <sys_created_on>2022-05-09 15:19:37</sys_created_on>
-            <sys_id>a2f1a22e87174d10b0ab7518cebb3533</sys_id>
+            <sys_created_on>2022-05-17 13:10:34</sys_created_on>
+            <sys_id>7521170987a70550b0ab7518cebb3559</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_258747_octoprint_3d_printer" sys_domain="global" view="Default view">b23a6ed687a60d10b0ab7518cebb35c5</sys_ui_section>
             <sys_updated_by>kristy</sys_updated_by>
-            <sys_updated_on>2022-05-09 15:19:37</sys_updated_on>
+            <sys_updated_on>2022-05-17 13:10:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
