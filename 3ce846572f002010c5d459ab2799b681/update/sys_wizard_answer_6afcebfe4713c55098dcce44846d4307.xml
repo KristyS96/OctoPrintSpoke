@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>3D Printer</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>3D Printer</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">39ec96de87020110d5857518cebb3552</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-10 15:25:48</sys_created_on>
+        <sys_id>6afcebfe4713c55098dcce44846d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3D Printer</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_wizard_answer_6afcebfe4713c55098dcce44846d4307</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-10 15:25:48</sys_updated_on>
+        <table/>
+        <target_url>x_258747_octoprint_3d_printer.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD128787ec6b97c5105c201280c2f22d3a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FD128787ec6b97c5105c201280c2f22d3a":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD128787ec6b97c5105c201280c2f22d3a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"e812caf8-8fb9-4be8-9166-42639cd2a90d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD128787ec6b97c5105c201280c2f22d3a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 12:55:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d28787ec8797c510b0ab7518cebb353a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD128787ec6b97c5105c201280c2f22d3a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_d28787ec8797c510b0ab7518cebb353a</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:55:57</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

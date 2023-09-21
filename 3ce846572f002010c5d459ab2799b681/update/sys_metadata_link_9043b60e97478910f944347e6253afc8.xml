@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>519c8fa697c20110f944347e6253af13</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_model_category">
+    <cmdb_model_category action="INSERT_OR_UPDATE">
+        <allow_as_master>false</allow_as_master>
+        <allow_in_bundle>false</allow_in_bundle>
+        <allow_pre_allocation>false</allow_pre_allocation>
+        <asset_class/>
+        <bundle>false</bundle>
+        <cmdb_ci_class/>
+        <code/>
+        <enforce_verification>false</enforce_verification>
+        <name>Printable</name>
+        <parent_cateogry/>
+        <picture/>
+        <product_model_class/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-08 15:07:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>519c8fa697c20110f944347e6253af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-08 15:07:23</sys_updated_on>
+    </cmdb_model_category>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 17:02:28</sys_created_on>
+        <sys_id>9043b60e97478910f944347e6253afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Printable</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_metadata_link_9043b60e97478910f944347e6253afc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 17:02:28</sys_updated_on>
+        <tablename>cmdb_model_category</tablename>
+    </sys_metadata_link>
+</record_update>

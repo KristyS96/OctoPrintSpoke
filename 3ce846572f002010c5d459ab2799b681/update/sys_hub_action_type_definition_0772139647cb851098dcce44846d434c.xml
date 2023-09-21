@@ -1,0 +1,3004 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Job operations">806fdb2f2fc02010c5d459ab2799b651</category>
+        <compiler_build/>
+        <copied_from>894bfec297878910f944347e6253af29</copied_from>
+        <copied_from_name>Print from 3D Model v2</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_print_from_3d_model_v2</internal_name>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_name}}","label":"action➛File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer}}","label":"action➛3D Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.ip_address}}","label":"action➛3D Printer➛IP Address","type":"action","ref":"","reference_display":"IP Address","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{action.stl_file_name}}","label":"action➛STL File Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.stl_file_path}}","label":"action➛3D Model File","type":"action","ref":"","reference_display":"3D Model File","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"c196688a-93a5-4595-ab48-817684e87f59"}},{"name":"{{action.print_file_}}","label":"action➛Print File?","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_printer.current_print_profile}}","label":"action➛3D Printer➛Current Print Profile","type":"action","ref":"","reference_display":"Current Print Profile","base_type":"string","parent_table_name":"x_258747_print_fac_3d_printer_ci","column_name":"current_print_profile","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.name}}","label":"action➛3D Model File➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.sys_id}}","label":"action➛3D Model File➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.download_url}}","label":"action➛3D Model File➛Download URL","type":"action","ref":"","reference_display":"Download URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"download_url","choices":null,"attributes":{}},{"name":"{{action.stl_file_path.file_url}}","label":"action➛3D Model File➛File URL","type":"action","ref":"","reference_display":"File URL","base_type":"url","parent_table_name":"x_258747_print_fac_3d_model_files","column_name":"file_url","choices":null,"attributes":{}},{"name":"{{action.task}}","label":"action➛Task","type":"action","ref":"","reference_display":"Task","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"95f3668b-55c3-4e5e-bb10-0ea5e61df851"}},{"name":"{{action.ip_address}}","label":"action➛IP Address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_download_url}}","label":"action➛File Download URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable}}","label":"action➛Model","type":"action","ref":"","reference_display":"3D Print Model","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"cadb8dc1-7f86-4c9d-a898-e4b7a4a9f30c"}},{"name":"{{action.variable1}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"ac5a900e-5147-4721-be06-5828ba3b5f98"}},{"name":"{{action.variable.source_url}}","label":"action➛Model➛Source URL","type":"action","ref":"","reference_display":"Source URL","base_type":"url","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"source_url","choices":null,"attributes":{}},{"name":"{{action.variable1.ip_address}}","label":"action➛Printer➛IP Address","type":"action","ref":"","reference_display":"IP Address","base_type":"string","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{action.variable.direct_url}}","label":"action➛Model➛Direct URL","type":"action","ref":"","reference_display":"Direct URL","base_type":"url","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"direct_url","choices":null,"attributes":{}},{"name":"{{action.variable.name}}","label":"action➛Model➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.variable.owner}}","label":"action➛Model➛Owner","type":"action","ref":"sys_user","reference_display":"Owner","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"owner","choices":null,"attributes":{}},{"name":"{{action.variable1.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{action.variable.gcode_file}}","label":"action➛Model➛GCODE File","type":"action","ref":"","reference_display":"GCODE File","base_type":"file_attachment","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"gcode_file","choices":null,"attributes":{}},{"name":"{{action.variable.sys_id}}","label":"action➛Model➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.variable.cmdb_ci_class}}","label":"action➛Model➛CMDB CI class","type":"action","ref":"","reference_display":"CMDB CI class","base_type":"string","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"cmdb_ci_class","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{action.task.source_url}}","label":"action➛Model➛Source URL","type":"action","ref":"","reference_display":"Source URL","base_type":"url","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"source_url","choices":null,"attributes":{}},{"name":"{{action.task.direct_url}}","label":"action➛Model➛Direct URL","type":"action","ref":"","reference_display":"Direct URL","base_type":"url","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"direct_url","choices":null,"attributes":{}},{"name":"{{action.task.name}}","label":"action➛Model➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.task.owner}}","label":"action➛Model➛Owner","type":"action","ref":"","reference_display":"Owner","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"owner","choices":null,"attributes":{}},{"name":"{{action.3d_printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{action.task.gcode_file}}","label":"action➛Model➛GCODE File","type":"action","ref":"","reference_display":"GCODE File","base_type":"file_attachment","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"gcode_file","choices":null,"attributes":{}},{"name":"{{action.task.sys_id}}","label":"action➛Model➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.task.cmdb_ci_class}}","label":"action➛Model➛CMDB CI class","type":"action","ref":"","reference_display":"CMDB CI class","base_type":"string","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"cmdb_ci_class","choices":null,"attributes":{}},{"name":"{{action.3d_model}}","label":"action➛3D Model","type":"action","ref":"","reference_display":"3D Print Model","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.3d_model.gcode_file}}","label":"action➛3D Model➛GCODE File","type":"action","ref":"","reference_display":"GCODE File","base_type":"file_attachment","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"gcode_file","choices":null,"attributes":{}},{"name":"{{action.3d_model.sys_id}}","label":"action➛3D Model➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.3d_model.cmdb_ci_class}}","label":"action➛3D Model➛CMDB CI class","type":"action","ref":"","reference_display":"CMDB CI class","base_type":"string","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"cmdb_ci_class","choices":null,"attributes":{}},{"name":"{{action.model}}","label":"action➛Model","type":"action","ref":"","reference_display":"Engraveable Model","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.model.cmdb_ci_class}}","label":"action➛Model➛CMDB CI class","type":"action","ref":"","reference_display":"CMDB CI class","base_type":"string","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"cmdb_ci_class","choices":null,"attributes":{}},{"name":"{{action.model.laser_intensity}}","label":"action➛Model➛Laser Intensity","type":"action","ref":"","reference_display":"Laser Intensity","base_type":"integer","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"laser_intensity","choices":null,"attributes":{}},{"name":"{{action.model.feed}}","label":"action➛Model➛Feed","type":"action","ref":"","reference_display":"Feed","base_type":"integer","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"feed","choices":null,"attributes":{}},{"name":"{{action.model.dpi}}","label":"action➛Model➛DPI","type":"action","ref":"","reference_display":"DPI","base_type":"float","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"dpi","choices":null,"attributes":{}},{"name":"{{action.model.sys_id}}","label":"action➛Model➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.text_to_engrave}}","label":"action➛Text to engrave","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.font_size}}","label":"action➛Font Size","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.laser_intensity}}","label":"action➛Laser Intensity","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.feed}}","label":"action➛Feed","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.x_offset}}","label":"action➛X Offset","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.y_offset}}","label":"action➛Y Offset","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.z_offset}}","label":"action➛Z Offset","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cnc}}","label":"action➛CNC","type":"action","ref":"","reference_display":"CNC","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"8ea7d141-df86-4d08-861e-062e6060ada4"}},{"name":"{{action.cnc.x_snc_cnc_spoke_associated_mid}}","label":"action➛CNC➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"cmdb_ci_ot_cnc","column_name":"x_snc_cnc_spoke_associated_mid","choices":null,"attributes":{}},{"name":"{{action.cnc.x_snc_cnc_spoke_associated_mid.ip_address}}","label":"action➛CNC➛Associated MID➛IP address","type":"action","ref":"","reference_display":"IP address","base_type":"string","parent_table_name":"ecc_agent","column_name":"ip_address","choices":null,"attributes":{}},{"name":"{{action.model.svg2gcode_settings}}","label":"action➛Model➛svg2gcode Settings","type":"action","ref":"","reference_display":"svg2gcode Settings","base_type":"string","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"svg2gcode_settings","choices":null,"attributes":{}},{"name":"{{action.model.height}}","label":"action➛Model➛Height","type":"action","ref":"","reference_display":"Height","base_type":"float","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"height","choices":null,"attributes":{}},{"name":"{{action.model.width}}","label":"action➛Model➛Width","type":"action","ref":"","reference_display":"Width","base_type":"float","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"width","choices":null,"attributes":{}},{"name":"{{action.model.margin}}","label":"action➛Model➛Margin","type":"action","ref":"","reference_display":"Margin","base_type":"float","parent_table_name":"x_snc_cnc_spoke_engraveable_model","column_name":"margin","choices":null,"attributes":{}},{"name":"{{action.3d_printer.associated_mid.name}}","label":"action➛3D Printer➛Associated MID➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"ecc_agent","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Select file and print➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].variable}}","label":"step➛Trim file name➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].filename}}","label":"step➛Trim file name➛fileName","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6fcd184a-47cc-4753-aae3-341c0ace28af].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].variable}}","label":"step➛Get defaults from Properties➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].slicer}}","label":"step➛Get defaults from Properties➛Slicer","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].location}}","label":"step➛Get defaults from Properties➛Location","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record.sys_id}}","label":"step➛Create Record step➛MID Server Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"ecc_agent_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].variable}}","label":"step➛Copy attachment➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].att_id}}","label":"step➛Copy attachment➛att_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e4c740f5-f867-4a12-9cf8-7c2581c8cce7].payload}}","label":"step➛Copy attachment➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[86957f12-2607-48cb-97a7-5afd3b7fbbb1].sn_auth_token}}","label":"step➛Download STL file➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[a22d12b9-3856-46e7-ab38-05d1ea8e5689].sn_auth_token}}","label":"step➛Download STL➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[6be7dbae-d9d7-4eb7-bd74-1649d011a924].record}}","label":"step➛Create Record step➛MID Server Attachment Record","type":"step","ref":"ecc_agent_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].gcode_file}}","label":"step➛Get defaults from Properties➛GCODE File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[cd4ad005-c955-4ff4-be64-299c89ce2335].output}}","label":"step➛Download STL➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a529ffd4-21c3-400a-8f43-2e8258eef124].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].current_state}}","label":"step➛Script step➛Current State","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].bed_temp}}","label":"step➛Script step➛Bed Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].tool_temp}}","label":"step➛Script step➛Tool Temp","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7bd596-e1eb-4ff8-8fdc-23efb3627757].sd_status}}","label":"step➛Script step➛SD Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[136eb63d-8560-4bf0-9d83-82c607576e99].root.refs.download}}","label":"step➛JSON Parser step➛root➛refs➛download","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0402dcb-d936-43ee-9bdb-3d718299b421].stl_file}}","label":"step➛Get defaults from Properties➛STL File","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1a9c1835-7faa-4c41-b19f-411ba8974046].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[1a9c1835-7faa-4c41-b19f-411ba8974046].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].variable}}","label":"step➛Parse REST response➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingname}}","label":"step➛Parse REST response➛thingName","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].variable1}}","label":"step➛Parse REST response➛variable1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].variable2}}","label":"step➛Parse REST response➛variable2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].variable3}}","label":"step➛Parse REST response➛variable3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingurl}}","label":"step➛Parse REST response➛thingURL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingthumbnail}}","label":"step➛Parse REST response➛thingThumbnail","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingfiles}}","label":"step➛Parse REST response➛thingFiles","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingdescription}}","label":"step➛Parse REST response➛thingDescription","type":"step","ref":"","reference_display":"","base_type":"html","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c8d86c98-22f8-4892-b45b-cd10ba714a60].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[c8d86c98-22f8-4892-b45b-cd10ba714a60].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[61f8c571-b81e-430b-821b-accff16293c5].root.root_array}}","label":"step➛JSON Parser step➛root➛root_array","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingrafts}}","label":"step➛Parse REST response➛thingRafts","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[888f301b-3f8b-4d95-baa7-d4647f81d9fd].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[888f301b-3f8b-4d95-baa7-d4647f81d9fd].modelName}}","label":"step➛JSON Parser step➛modelName","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingsupport}}","label":"step➛Parse REST response➛thingSupport","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingresolution}}","label":"step➛Parse REST response➛thingResolution","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[16489412-af8a-4954-a2d5-15cf278eed24].thingfilament}}","label":"step➛Parse REST response➛thingFilament","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f586f331-f1b9-450e-abf5-e0f1254f725d].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f586f331-f1b9-450e-abf5-e0f1254f725d].file_name}}","label":"step➛Script step➛File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[34ebbf6e-e6f1-4b8b-9acc-c33b0df56ab6].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[4948a3ed-533b-4cf0-aead-c5dc03a0a3db].record}}","label":"step➛Look Up Record step➛Attachment Record","type":"step","ref":"sys_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4948a3ed-533b-4cf0-aead-c5dc03a0a3db].record.file_name}}","label":"step➛Look Up Record step➛Attachment Record➛File name","type":"step","ref":"","reference_display":"File name","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name","choices":null,"attributes":{}},{"name":"{{step[e7e4c683-dd49-4521-a065-b50749db2dda].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[82398e0c-8b8c-4caf-a7c6-9fb613dd04c8].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[4948a3ed-533b-4cf0-aead-c5dc03a0a3db].table_name}}","label":"step➛Look Up Record step➛Attachment Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce7c85c1-71b7-4b00-99de-235865af241d].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[ce7c85c1-71b7-4b00-99de-235865af241d].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4948a3ed-533b-4cf0-aead-c5dc03a0a3db].record.sys_id}}","label":"step➛Look Up Record step➛Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[ce7c85c1-71b7-4b00-99de-235865af241d].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].variable}}","label":"step➛Formulate File Name➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}}","label":"step➛Formulate File Name➛File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record.file_name}}","label":"step➛Lookup GCODE file attachment➛Attachment Record➛File name","type":"step","ref":"","reference_display":"File name","base_type":"string","parent_table_name":"sys_attachment","column_name":"file_name","choices":null,"attributes":{}},{"name":"{{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record.sys_id}}","label":"step➛Lookup GCODE file attachment➛Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[24019810-7b33-4551-889e-8f9d8d15045a].sn_auth_token}}","label":"step➛Upload GCODE file➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[d5146c57-ba5c-4ca4-94c6-5c66b3780c4e].sn_auth_token}}","label":"step➛Print file➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[1058151d-cd91-4b84-983a-956308596ac6].variable}}","label":"step➛Create JSON String➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1058151d-cd91-4b84-983a-956308596ac6].model_sysid}}","label":"step➛Create JSON String➛Model SysID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1058151d-cd91-4b84-983a-956308596ac6].model_sysid1}}","label":"step➛Create JSON String➛Model SysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1058151d-cd91-4b84-983a-956308596ac6].json_settings_string}}","label":"step➛Create JSON String➛JSON Settings String","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[b02c9273-2e7d-4a03-8c18-c57a5f0a84f6].record}}","label":"step➛Look Up Record step➛Attachment Record","type":"step","ref":"sys_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ec592af5-2f2c-473e-a531-1e58f03985c0].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48054afe-df53-4e6c-a081-cbd85a2f4646].record}}","label":"step➛Create Record step➛Queue Record","type":"step","ref":"ecc_queue","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e96237ba-75ef-4941-abe2-c4ee3af023b7].variable}}","label":"step➛Create file name➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e96237ba-75ef-4941-abe2-c4ee3af023b7].json_file_name}}","label":"step➛Create file name➛JSON File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e96237ba-75ef-4941-abe2-c4ee3af023b7].gcode_file_name}}","label":"step➛Create file name➛GCODE File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d7a6f854-6a71-435f-8f38-4d5944fd6b2d].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[24019810-7b33-4551-889e-8f9d8d15045a].error_message}}","label":"step➛Upload GCODE file➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[dcb569db-1c0d-45b3-975d-2381965eafd4].table_name}}","label":"step➛Lookup GCODE file attachment➛Attachment Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record}}","label":"step➛Lookup GCODE file attachment➛Attachment Record","type":"step","ref":"sys_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[61d51cfa-f6b5-49c4-9869-5e6e6bd6db31].record.sys_id}}","label":"step➛Create ECC Attachment➛MID Server Attachment Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"ecc_agent_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[61d51cfa-f6b5-49c4-9869-5e6e6bd6db31].record.name}}","label":"step➛Create ECC Attachment➛MID Server Attachment Record➛Name","type":"step","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"ecc_agent_attachment","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].variable}}","label":"step➛Copy attachment➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].xml_payload}}","label":"step➛Copy attachment➛XML Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[61d51cfa-f6b5-49c4-9869-5e6e6bd6db31].record}}","label":"step➛Create ECC Attachment➛MID Server Attachment Record","type":"step","ref":"ecc_agent_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].export_path}}","label":"step➛Copy attachment➛Export path","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].attachment_sysid}}","label":"step➛Copy attachment➛Attachment Sysid","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].attachment_sysid2}}","label":"step➛Copy attachment➛Attachment SysId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a9c8dc17-502b-4164-a726-ede6a2dcc96f].record}}","label":"step➛Look up copied attachment record➛Attachment Record","type":"step","ref":"sys_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].original_file_name}}","label":"step➛Formulate File Name➛Original File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].default_port}}","label":"step➛Formulate File Name➛Default Port","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[68b4b201-ad07-45f3-8416-9ad9504d1815].error_message}}","label":"step➛Rename file➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Print from 3D Model v2</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0772139647cb851098dcce44846d434c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Copy of Print from 3D Model v2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0772139647cb851098dcce44846d434c</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:55:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0772139647cb851098dcce44846d434c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0772139647cb851098dcce44846d434c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0772139647cb851098dcce44846d434c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2372539647cb851098dcce44846d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2f72539647cb851098dcce44846d43ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0772139647cb851098dcce44846d434c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d43b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:57</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDe772539672cb8510e25323a6834d2b97":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDe772539672cb8510e25323a6834d2b97.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"013af90c-e9e2-40e3-be77-e262a84f86b1\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe772539672cb8510e25323a6834d2b97\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">e372539647cb851098dcce44846d43a7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c^id=0772139647cb851098dcce44846d434c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0772139647cb851098dcce44846d434c^sys_idNOT IN0f72139647cb851098dcce44846d43a0,1f72139647cb851098dcce44846d43e3,1f72539647cb851098dcce44846d4342,2b72539647cb851098dcce44846d4356,5b72539647cb851098dcce44846d4349,9772139647cb851098dcce44846d43f7,9b72139647cb851098dcce44846d43fd,ab72539647cb851098dcce44846d4363,d372539647cb851098dcce44846d4350"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>190c66e8-2a8f-4bd8-964e-a3b35fd41f44</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Formulate File Name</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>0f72139647cb851098dcce44846d43a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f72139647cb851098dcce44846d43a0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0f72139647cb851098dcce44846d43a0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9f72139647cb851098dcce44846d43df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var grAtt = new GlideRecord('sys_attachment');
+  var port = gs.getProperty("x_258747_octoprint.default_octoprint_port");
+  if(grAtt.get(inputs.attachment)){
+  
+if(inputs.task)
+{
+  outputs.file_name = inputs.task.number + "_" + grAtt.file_name;
+}else
+{
+  outputs.file_name = grAtt.file_name;
+} 
+  }
+  outputs.original_file_name = grAtt.file_name;
+  outputs.default_port = port;
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0f72139647cb851098dcce44846d43a0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>d772139647cb851098dcce44846d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f72139647cb851098dcce44846d43a0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment</field>
+        <id>0f72139647cb851098dcce44846d43a0</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1f72139647cb851098dcce44846d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_0f72139647cb851098dcce44846d43a0</table>
+        <value>{{fd_transform:d31ad4a7-83d1-4edc-bcf4-4a1d223cd550}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task</field>
+        <id>0f72139647cb851098dcce44846d43a0</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>df72139647cb851098dcce44846d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_0f72139647cb851098dcce44846d43a0</table>
+        <value>{{action.task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0^id=0f72139647cb851098dcce44846d43a0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=0f72139647cb851098dcce44846d43a0"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0f72139647cb851098dcce44846d43a0^sys_idNOT IN8772139647cb851098dcce44846d43a4,c372139647cb851098dcce44846d43a9"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Formulate File Name">0f72139647cb851098dcce44846d43a0</model>
+        <model_id>0f72139647cb851098dcce44846d43a0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_0f72139647cb851098dcce44846d43a0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>8772139647cb851098dcce44846d43a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=file_attachment,uiTypeLabel=File Attachment</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attachment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">file_attachment</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Formulate File Name">0f72139647cb851098dcce44846d43a0</model>
+        <model_id>0f72139647cb851098dcce44846d43a0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_0f72139647cb851098dcce44846d43a0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>c372139647cb851098dcce44846d43a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0f72139647cb851098dcce44846d43a0^sys_idNOT IN1b72139647cb851098dcce44846d43b2,db72139647cb851098dcce44846d43ad,ed3ae27c87a7c150b0ab7518cebb355c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=09d6723c-1d89-490b-aae6-3dba9b195906</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>original_file_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Original File Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Formulate File Name">0f72139647cb851098dcce44846d43a0</model>
+        <model_id>0f72139647cb851098dcce44846d43a0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1b72139647cb851098dcce44846d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=33f512ae-d332-44b6-a66d-b172f1dbee7e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>file_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>File Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Formulate File Name">0f72139647cb851098dcce44846d43a0</model>
+        <model_id>0f72139647cb851098dcce44846d43a0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>db72139647cb851098dcce44846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aa6a747f-4379-4102-8a9c-299fd3907b31</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>default_port</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Default Port</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Formulate File Name">0f72139647cb851098dcce44846d43a0</model>
+        <model_id>0f72139647cb851098dcce44846d43a0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-16 15:41:56</sys_created_on>
+        <sys_id>ed3ae27c87a7c150b0ab7518cebb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f72139647cb851098dcce44846d43a0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0^sys_idNOT IN5b72139647cb851098dcce44846d43b1,5b72139647cb851098dcce44846d43b5,e53ae27c87a7c150b0ab7518cebb3560"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>file_name</element>
+        <help/>
+        <hint/>
+        <label>File Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5b72139647cb851098dcce44846d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>File Name</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>original_file_name</element>
+        <help/>
+        <hint/>
+        <label>Original File Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5b72139647cb851098dcce44846d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Original File Name</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>default_port</element>
+        <help/>
+        <hint/>
+        <label>Default Port</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-16 15:41:56</sys_created_on>
+        <sys_id>e53ae27c87a7c150b0ab7518cebb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Port</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0f72139647cb851098dcce44846d43a0_default_port_en</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>dcb569db-1c0d-45b3-975d-2381965eafd4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Lookup GCODE file attachment</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1f72139647cb851098dcce44846d43e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f72139647cb851098dcce44846d43e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1f72139647cb851098dcce44846d43e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>d772139647cb851098dcce44846d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f72139647cb851098dcce44846d43e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1f72139647cb851098dcce44846d43e3</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5772139647cb851098dcce44846d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>table_sys_id={{action.3d_model.sys_id}}^table_name=ZZ_YYx_258747_octoprint_3d_print_model^file_nameENDSWITH.gcode^content_type=application/octet-stream</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>1f72139647cb851098dcce44846d43e3</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9372139647cb851098dcce44846d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1f72139647cb851098dcce44846d43e3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1f72139647cb851098dcce44846d43e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f72139647cb851098dcce44846d43e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1f72139647cb851098dcce44846d43e3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>a9c8dc17-502b-4164-a726-ede6a2dcc96f</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look up copied attachment record</label>
+        <order>5</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>1f72539647cb851098dcce44846d4342</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f72539647cb851098dcce44846d4342"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1f72539647cb851098dcce44846d4342</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>d372539647cb851098dcce44846d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f72539647cb851098dcce44846d4342"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1f72539647cb851098dcce44846d4342</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5372539647cb851098dcce44846d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>table_name=ZZ_YYecc_agent_attachment^table_sys_id={{step[61d51cfa-f6b5-49c4-9869-5e6e6bd6db31].record.sys_id}}^file_name={{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].original_file_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>1f72539647cb851098dcce44846d4342</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>9f72539647cb851098dcce44846d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1f72539647cb851098dcce44846d4342"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1f72539647cb851098dcce44846d4342"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f72539647cb851098dcce44846d4342"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1f72539647cb851098dcce44846d4342"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>68b4b201-ad07-45f3-8416-9ad9504d1815</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Rename file</label>
+        <order>8</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2b72539647cb851098dcce44846d4356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b72539647cb851098dcce44846d4356"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2372539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>localhost</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6b72539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>77321ffe87fa4510b0ab7518cebb3576</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a372539647cb851098dcce44846d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a772539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>/home/pi/</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b72539647cb851098dcce44846d4356</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ef72539647cb851098dcce44846d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2b72539647cb851098dcce44846d4356"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6b72539647cb851098dcce44846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a372539647cb851098dcce44846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>sleep 10
+mv servicenow/makenow_mid/agent/export/{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}} .octoprint/uploads/{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>eb72539647cb851098dcce44846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6772539647cb851098dcce44846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ef72539647cb851098dcce44846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2b72539647cb851098dcce44846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>af72539647cb851098dcce44846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a772539647cb851098dcce44846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>2b72539647cb851098dcce44846d4356</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.3d_printer.associated_mid}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2b72539647cb851098dcce44846d4356"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2b72539647cb851098dcce44846d4356"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2b72539647cb851098dcce44846d4356"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2b72539647cb851098dcce44846d4356"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>bbc5d3bf-38fc-4d21-9f91-22c375709c89</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>6</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5b72539647cb851098dcce44846d4349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5b72539647cb851098dcce44846d4349"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5b72539647cb851098dcce44846d4349</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>9f72539647cb851098dcce44846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5b72539647cb851098dcce44846d4349</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>db72539647cb851098dcce44846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>table_name=ecc_agent_attachment</value>
+        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5b72539647cb851098dcce44846d4349"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5b72539647cb851098dcce44846d4349</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5b72539647cb851098dcce44846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[a9c8dc17-502b-4164-a726-ede6a2dcc96f].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5b72539647cb851098dcce44846d4349</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>d372539647cb851098dcce44846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>5b72539647cb851098dcce44846d4349</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>9772539647cb851098dcce44846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5b72539647cb851098dcce44846d4349"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5b72539647cb851098dcce44846d4349"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5b72539647cb851098dcce44846d4349"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5b72539647cb851098dcce44846d4349"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>61d51cfa-f6b5-49c4-9869-5e6e6bd6db31</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create ECC Attachment</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9772139647cb851098dcce44846d43f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9772139647cb851098dcce44846d43f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9772139647cb851098dcce44846d43f7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5772139647cb851098dcce44846d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <value>ecc_agent_attachment</value>
+        <variable display_value="Table">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9772139647cb851098dcce44846d43f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>9772139647cb851098dcce44846d43f7</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1372139647cb851098dcce44846d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>short_description=exportToMid: {{step[dcb569db-1c0d-45b3-975d-2381965eafd4].record.file_name}}^name=Export Set Attachment</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>9772139647cb851098dcce44846d43f7</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>d372139647cb851098dcce44846d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9772139647cb851098dcce44846d43f7"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9772139647cb851098dcce44846d43f7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9772139647cb851098dcce44846d43f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9772139647cb851098dcce44846d43f7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>5d1463f9-31ea-4a4e-a985-cfec65a49516</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Copy attachment</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9b72139647cb851098dcce44846d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b72139647cb851098dcce44846d43fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9b72139647cb851098dcce44846d43fd</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5f72539647cb851098dcce44846d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	// Copy attachments (OOB Function copies all attachments)
+	var atts = GlideSysAttachment.copy(inputs.attached_table,inputs.attached_record,'ecc_agent_attachment',inputs.ecc_att);
+  outputs.export_path = "/";
+  outputs.attachment_sysid = atts[0];
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9b72139647cb851098dcce44846d43fd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>9b72539647cb851098dcce44846d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9b72139647cb851098dcce44846d43fd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>df72539647cb851098dcce44846d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>ZZ_YYx_258747_octoprint_3d_print_model</value>
+        <variable display_value="">1372539647cb851098dcce44846d4301</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b72139647cb851098dcce44846d43fd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attached_record</field>
+        <id>9b72139647cb851098dcce44846d43fd</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>d772539647cb851098dcce44846d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</table>
+        <value>{{action.3d_model.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attached_table</field>
+        <id>9b72139647cb851098dcce44846d43fd</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5f72539647cb851098dcce44846d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ecc_att</field>
+        <id>9b72139647cb851098dcce44846d43fd</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>9b72539647cb851098dcce44846d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</table>
+        <value>{{step[61d51cfa-f6b5-49c4-9869-5e6e6bd6db31].record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd^id=9b72139647cb851098dcce44846d43fd"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9b72139647cb851098dcce44846d43fd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9b72139647cb851098dcce44846d43fd^sys_idNOT IN1372539647cb851098dcce44846d4301,1772539647cb851098dcce44846d4322,5772539647cb851098dcce44846d431e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attached_table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy attachment">9b72139647cb851098dcce44846d43fd</model>
+        <model_id>9b72139647cb851098dcce44846d43fd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1372539647cb851098dcce44846d4301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ecc_att</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy attachment">9b72139647cb851098dcce44846d43fd</model>
+        <model_id>9b72139647cb851098dcce44846d43fd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>1772539647cb851098dcce44846d4322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attached_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy attachment">9b72139647cb851098dcce44846d43fd</model>
+        <model_id>9b72139647cb851098dcce44846d43fd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9b72139647cb851098dcce44846d43fd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5772539647cb851098dcce44846d431e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:41:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9b72139647cb851098dcce44846d43fd^sys_idNOT IN5b72539647cb851098dcce44846d4337,db72539647cb851098dcce44846d4326"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=caebb346-77bf-4cc4-874c-9c7b21db703b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attachment_sysid2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Attachment SysId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy attachment">9b72139647cb851098dcce44846d43fd</model>
+        <model_id>9b72139647cb851098dcce44846d43fd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>5b72539647cb851098dcce44846d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d9da576e-4fa5-4e8b-b87a-e27be37064cd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>export_path</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Export path</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy attachment">9b72139647cb851098dcce44846d43fd</model>
+        <model_id>9b72139647cb851098dcce44846d43fd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>db72539647cb851098dcce44846d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b72139647cb851098dcce44846d43fd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd^sys_idNOT IN9b72539647cb851098dcce44846d4336,9b72539647cb851098dcce44846d433a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>export_path</element>
+        <help/>
+        <hint/>
+        <label>Export path</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9b72539647cb851098dcce44846d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Export path</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attachment_sysid2</element>
+        <help/>
+        <hint/>
+        <label>Attachment SysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9b72139647cb851098dcce44846d43fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>9b72539647cb851098dcce44846d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment SysId</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>d5146c57-ba5c-4ca4-94c6-5c66b3780c4e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Print file</label>
+        <order>9</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ab72539647cb851098dcce44846d4363</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:42:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ab72539647cb851098dcce44846d4363"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2372539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2b72539647cb851098dcce44846d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>a4bda33e877e4510b0ab7518cebb3568</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6372539647cb851098dcce44846d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6772539647cb851098dcce44846d4392</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:42:08</sys_updated_on>
+        <value/>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6b72539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">a7d3fa4b73131010791f94596bf6a79a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6f72539647cb851098dcce44846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>{
+  "command": "select",
+  "print": true
+}</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a372539647cb851098dcce44846d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a772539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ab72539647cb851098dcce44846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>af72539647cb851098dcce44846d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>eb72539647cb851098dcce44846d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ab72539647cb851098dcce44846d4363</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ef72539647cb851098dcce44846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ab72539647cb851098dcce44846d4363^id=ab72539647cb851098dcce44846d4363"/>
+    <sys_element_mapping action="delete_multiple" query="id=ab72539647cb851098dcce44846d4363"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a372539647cb851098dcce44846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:42:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>http://localhost:{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].default_port}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>af72539647cb851098dcce44846d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a772539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ab72539647cb851098dcce44846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2b72539647cb851098dcce44846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>ef72539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2372539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"X-Api-Key","value":"{{step[d5146c57-ba5c-4ca4-94c6-5c66b3780c4e].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6372539647cb851098dcce44846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2772539647cb851098dcce44846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6f72539647cb851098dcce44846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6b72539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.3d_printer.associated_mid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6772539647cb851098dcce44846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e772539647cb851098dcce44846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/files/local/{{step[190c66e8-2a8f-4bd8-964e-a3b35fd41f44].file_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>eb72539647cb851098dcce44846d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>ab72539647cb851098dcce44846d4363</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ab72539647cb851098dcce44846d4363"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ab72539647cb851098dcce44846d4363^sys_idNOT IN2f72539647cb851098dcce44846d436a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=228b7da5-6449-42da-854b-38557c5365f6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Print file">ab72539647cb851098dcce44846d4363</model>
+        <model_id>ab72539647cb851098dcce44846d4363</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ab72539647cb851098dcce44846d4363</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab72539647cb851098dcce44846d4363"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ab72539647cb851098dcce44846d4363^sys_idNOT INa772539647cb851098dcce44846d436e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ab72539647cb851098dcce44846d4363</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>a772539647cb851098dcce44846d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential Value</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action>
+        <cid>0f05d2c0-4bdd-4663-abb6-9ff44ac3e89c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create ECC queue record</label>
+        <order>7</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>d372539647cb851098dcce44846d4350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d372539647cb851098dcce44846d4350"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d372539647cb851098dcce44846d4350</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6772539647cb851098dcce44846d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <value>ecc_queue</value>
+        <variable display_value="Table">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d372539647cb851098dcce44846d4350"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>d372539647cb851098dcce44846d4350</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2372539647cb851098dcce44846d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>agent=mid.server.{{action.3d_printer.associated_mid.name}}^topic=StreamPipeline^queue=output^state=ready^payload=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>d372539647cb851098dcce44846d4350</id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d372539647cb851098dcce44846d4350"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d372539647cb851098dcce44846d4350"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d372539647cb851098dcce44846d4350^sys_idNOT IN5372539647cb851098dcce44846d4354"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>create_record_field_values</input_name>
+        <instance>d372539647cb851098dcce44846d4350</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"payload":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\t// Create XML for ECC Payload\n\tvar xmlString \u003d \u0027\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\u0027 + \n\t\t\t\t\t\u0027\u003cparameters\u003e\u0027 +\n\t\t\t\t\t\u0027\u003cparameter name\u003d\\\"stream_relay_response_topic\\\" value\u003d\\\"ExportSetResult\\\"/\u003e\u0027 +\n\t\t\t\t\t\u0027\u003cstream_relay_source attachment_sys_id\u003d\\\"\u0027 + fd_data._5__look_up_copied_attachment_record.record.sys_id + \u0027\\\" type\u003d\\\"AttachmentSource\\\"/\u003e\u0027 +\n\t\t\t\t\t\u0027\u003cstream_relay_transform attachment.table_sys_id\u003d\\\"\u0027 + fd_data._3__create_ecc_attachment.record.sys_id + \u0027\\\" order\u003d\\\"0\\\" stream_relay_transfer_progress_interval\u003d\\\"150\\\" type\u003d\\\"AttachmentProgressTransformer\\\"/\u003e\u0027 +\n\t\t\t\t\t\u0027\u003cstream_relay_sink path\u003d\\\"\u0027 + fd_data._4__copy_attachment.export_path + fd_data._1__formulate_file_name.file_name + \u0027\\\" type\u003d\\\"FileSink\\\"/\u003e\u0027 +\n\t\t\t\t\t\u0027\u003c/parameters\u003e\u0027;\nreturn xmlString;","savedValue":"{{step[5d1463f9-31ea-4a4e-a985-cfec65a49516].xml_payload}}"}}</script>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>5372539647cb851098dcce44846d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d372539647cb851098dcce44846d4350"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0772139647cb851098dcce44846d434c^sys_idNOT IN0372139647cb851098dcce44846d4379,4b72139647cb851098dcce44846d4398,cf72139647cb851098dcce44846d4354"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ef4af3d4-1cf2-4275-ba18-8382bd879daa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_258747_octoprint_3d_printer</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>3d_printer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>3D Printer</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</model>
+        <model_id>0772139647cb851098dcce44846d434c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_258747_octoprint_3d_printer">x_258747_octoprint_3d_printer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:23</sys_created_on>
+        <sys_id>0372139647cb851098dcce44846d4379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0372139647cb851098dcce44846d4379"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e4acba52-71c7-44dd-b2bc-8d7a09e67d40</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_258747_octoprint_3d_print_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>3d_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>3D Model</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</model>
+        <model_id>0772139647cb851098dcce44846d434c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_258747_octoprint_3d_print_model">x_258747_octoprint_3d_print_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>4b72139647cb851098dcce44846d4398</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b72139647cb851098dcce44846d4398"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=95f3668b-55c3-4e5e-bb10-0ea5e61df851</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Task</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</model>
+        <model_id>0772139647cb851098dcce44846d434c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="Task" name="task">task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:23</sys_created_on>
+        <sys_id>cf72139647cb851098dcce44846d4354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cf72139647cb851098dcce44846d4354"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0772139647cb851098dcce44846d434c^sys_idNOT IN2f72539647cb851098dcce44846d43ac,e372539647cb851098dcce44846d43a7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=77d1261d-24d1-4dd2-bdaf-64228888ef9d,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</model>
+        <model_id>0772139647cb851098dcce44846d434c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>2f72539647cb851098dcce44846d43ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2f72539647cb851098dcce44846d43ac"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f72539647cb851098dcce44846d43ac"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDe772539672cb8510e25323a6834d2b97,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=013af90c-e9e2-40e3-be77-e262a84f86b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</model>
+        <model_id>0772139647cb851098dcce44846d434c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>e372539647cb851098dcce44846d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e372539647cb851098dcce44846d43a7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e372539647cb851098dcce44846d43a7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0772139647cb851098dcce44846d434c^sys_idNOT IN2772539647cb851098dcce44846d43b8,6f72539647cb851098dcce44846d43b7,ab72539647cb851098dcce44846d43b8,e772539647cb851098dcce44846d43b8"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0772139647cb851098dcce44846d434c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>d31ad4a7-83d1-4edc-bcf4-4a1d223cd550</source_ui_id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:26</sys_created_on>
+        <sys_id>2772539647cb851098dcce44846d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:26</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\b \\b","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"_","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>0d714691-c4a7-47ef-828c-c0dae9986654</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0772139647cb851098dcce44846d434c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.3d_model.gcode_file}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:26</sys_created_on>
+        <sys_id>6f72539647cb851098dcce44846d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d31ad4a7-83d1-4edc-bcf4-4a1d223cd550</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0772139647cb851098dcce44846d434c</attached_to>
+        <extra_info/>
+        <order>3</order>
+        <prescription/>
+        <source_ui_id>d31ad4a7-83d1-4edc-bcf4-4a1d223cd550</source_ui_id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:26</sys_created_on>
+        <sys_id>ab72539647cb851098dcce44846d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:26</sys_updated_on>
+        <transform_compositions>[{"id":"e0fce048c72333003884f80bf4c26002","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="to_lower_case">a809ecb7b7133300388487c2de11a9f7</transform_definition_id>
+        <ui_id>26601b52-0012-4f97-890a-d57b85f1c326</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>0772139647cb851098dcce44846d434c</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>d31ad4a7-83d1-4edc-bcf4-4a1d223cd550</source_ui_id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:26</sys_created_on>
+        <sys_id>e772539647cb851098dcce44846d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:26</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>68f2c660-4287-4581-b5b0-63abf2a52ff7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0772139647cb851098dcce44846d434c^sys_idNOT INaf72539647cb851098dcce44846d43b8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Print from 3D Model v2">0772139647cb851098dcce44846d434c</action_type_id>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:26</sys_created_on>
+        <sys_id>af72539647cb851098dcce44846d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:26</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=af72539647cb851098dcce44846d43b8^sys_idNOT INf45d2e3087e7c150b0ab7518cebb35ad"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2022-04-26 06:57:26">af72539647cb851098dcce44846d43b8</action_status_metadata_id>
+        <condition>{{step[68b4b201-ad07-45f3-8416-9ad9504d1815].error_message}}LIKECannot connect</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>No SSH Connection</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":"No SSH Connection"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"620ae830-f089-4bb7-b87a-596632299baf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-16 15:55:32</sys_created_on>
+        <sys_id>f45d2e3087e7c150b0ab7518cebb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-16 15:55:32</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c^sys_idNOT IN0f72139647cb851098dcce44846d4377,4772139647cb851098dcce44846d439e,8b72139647cb851098dcce44846d4397"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task</element>
+        <help/>
+        <hint/>
+        <label>Task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:23</sys_created_on>
+        <sys_id>0f72139647cb851098dcce44846d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>3d_model</element>
+        <help/>
+        <hint/>
+        <label>3D Model</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>4772139647cb851098dcce44846d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3D Model</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>3d_printer</element>
+        <help/>
+        <hint/>
+        <label>3D Printer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:24</sys_created_on>
+        <sys_id>8b72139647cb851098dcce44846d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3D Printer</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0772139647cb851098dcce44846d434c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c^sys_idNOT IN6372539647cb851098dcce44846d43b3,6f72539647cb851098dcce44846d43ab"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6372539647cb851098dcce44846d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-26 13:57:25</sys_created_on>
+        <sys_id>6f72539647cb851098dcce44846d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:57:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0772139647cb851098dcce44846d434c"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0772139647cb851098dcce44846d434c"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>File operations</name>
+        <order>300</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-30 16:35:13</sys_created_on>
+        <sys_id>6b4f5f2f2fc02010c5d459ab2799b6db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>File operations</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_hub_category_6b4f5f2f2fc02010c5d459ab2799b6db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 16:46:06</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b4f5f2f2fc02010c5d459ab2799b6db"/>
+</record_update>
