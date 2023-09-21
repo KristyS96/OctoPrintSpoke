@@ -14,9 +14,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FD7ccd0077e50fb050d311710cbf8b5d7c</sys_name>
         <sys_overrides/>
-        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_complex_object_30cd0077470fb050b2619cd3846d437d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-13 19:17:37</sys_updated_on>

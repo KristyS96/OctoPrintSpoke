@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sliced_file_path" label="Sliced File Path" language="en" table="var__m_sys_hub_action_output_0f1327d787a6cd10b0ab7518cebb351d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sliced_file_path</element>
+            <help/>
+            <hint/>
+            <label>Sliced File Path</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_0f1327d787a6cd10b0ab7518cebb351d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-04 21:12:34</sys_created_on>
+            <sys_id>d71327d787a6cd10b0ab7518cebb35a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sliced File Path</sys_name>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f1327d787a6cd10b0ab7518cebb351d_sliced_file_path_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-04 21:12:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

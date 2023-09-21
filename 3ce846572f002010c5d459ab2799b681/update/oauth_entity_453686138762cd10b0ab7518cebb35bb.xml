@@ -15,6 +15,7 @@
         <id_token_lifespan>0</id_token_lifespan>
         <logo_url/>
         <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
         <name>Thingiverse</name>
         <oauth_api_script display_value="OAuthAccessToken">08cbde338f20020026935f2a37bdee2b</oauth_api_script>
         <protocol_name/>

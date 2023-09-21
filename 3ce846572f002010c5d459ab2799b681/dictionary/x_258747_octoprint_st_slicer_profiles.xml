@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Slicer Profiles" max_length="40" name="x_258747_octoprint_st_slicer_profiles" sizeclass="0" type="collection">
-        <element label="Name" max_length="40" name="name" type="string"/>
-    </element>
-</database>

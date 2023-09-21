@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="location" label="Location" language="en" table="var__m_sys_hub_action_input_363e13eb2fc02010c5d459ab2799b65c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <help/>
+            <hint/>
+            <label>Location</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_363e13eb2fc02010c5d459ab2799b65c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 16:30:27</sys_created_on>
+            <sys_id>c73e13eb2fc02010c5d459ab2799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location</sys_name>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_363e13eb2fc02010c5d459ab2799b65c_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 16:30:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
