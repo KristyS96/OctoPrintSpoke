@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
         <copied_from>902946572f002010c5d459ab2799b699</copied_from>
         <copied_from_name>Upload &amp; Print Model</copied_from_name>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>upload_gcode_file</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Send print API call➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""}]</label_cache>
@@ -697,11 +700,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>upload_gcode_file</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Send print API call➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""}]</label_cache>
         <master>true</master>

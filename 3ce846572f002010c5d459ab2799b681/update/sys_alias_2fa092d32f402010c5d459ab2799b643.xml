@@ -3,6 +3,7 @@
         <configuration_template display_value="OctoPrint C&amp;C Template">aa3a373697f60190f944347e6253afea</configuration_template>
         <connection_type>http_connection</connection_type>
         <id>x_258747_octoprint.OctoPrint_HTTP_Connection_Alias</id>
+        <is_internal>false</is_internal>
         <multiple_connections>true</multiple_connections>
         <name>OctoPrint HTTP Connection Alias</name>
         <parent/>

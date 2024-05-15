@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_258747_octoprint_st_slicer_profiles</description>
+        <local_or_existing>Local</local_or_existing>
         <name>x_258747_octoprint_st_slicer_profiles</name>
         <operation display_value="read">read</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-13 17:19:24</sys_created_on>

@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>x_258747_octoprint.Thingiverse_HTTP_Connection_Alias</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>Thingiverse HTTP Connection Alias</name>
         <parent/>

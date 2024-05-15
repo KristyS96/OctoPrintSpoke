@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="67ff6bbe4772c91098dcce44846d43e3" extends="cmdb_ci_printer" label="3D Printer" max_length="40" name="x_258747_octoprint_3d_printer" type="collection">
+        <element label="Associated MID" mandatory="true" max_length="32" name="associated_mid" reference="ecc_agent" type="reference"/>
+        <element label="MID Install Directory" max_length="255" name="mid_install_directory" type="string"/>
+        <element label="OctoPrint Port" max_length="40" name="octoprint_port" type="integer"/>
+        <element choice="1" label="Print Status" max_length="255" name="print_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Finishing" value="Finishing"/>
+                <element inactive_on_update="false" label="Operational" value="Operational"/>
+                <element inactive_on_update="false" label="Printing" value="Printing"/>
+            </choice>
+        </element>
+        <element label="SSH Working Directory" max_length="255" name="ssh_working_directory" type="string"/>
+    </element>
+</database>

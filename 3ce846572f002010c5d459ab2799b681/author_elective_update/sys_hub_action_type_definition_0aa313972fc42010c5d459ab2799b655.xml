@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>cancel_print</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Cancel Print</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 21:05:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0aa313972fc42010c5d459ab2799b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Print</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0aa313972fc42010c5d459ab2799b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 21:05:45</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=0aa313972fc42010c5d459ab2799b655"/>
+    <sys_variable_value action="DELETE" query="document_key=0aa313972fc42010c5d459ab2799b655"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</application>
+        <file_path/>
+        <instance_id>3954cccbdb1f0090387021c4059619a4</instance_id>
+        <instance_name>dev102451</instance_name>
+        <name>sys_hub_action_type_definition_0aa313972fc42010c5d459ab2799b655</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>cancel_print</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Cancel Print</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-29 21:05:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0aa313972fc42010c5d459ab2799b655</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cancel Print</sys_name><sys_overrides/><sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package><sys_policy/><sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope><sys_update_name>sys_hub_action_type_definition_0aa313972fc42010c5d459ab2799b655</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-29 21:05:45</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=0aa313972fc42010c5d459ab2799b655"/><sys_variable_value action="delete_multiple" query="document_key=0aa313972fc42010c5d459ab2799b655"/></record_update>]]></payload>
+        <payload_hash>1406566148</payload_hash>
+        <record_name>Cancel Print</record_name>
+        <reverted_from/>
+        <source>7ce802972f002010c5d459ab2799b60e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 21:05:46</sys_created_on>
+        <sys_id>caa313972fc42010c5d459ab2799b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175762e48180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 21:05:46</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>06a3139708c42010b716c714ad2bf358</update_guid>
+        <update_guid_history>06a3139708c42010b716c714ad2bf358:1406566148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 21:23:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>00ec0faa75a14b5a801b8050c0dbe984</sys_id>
+        <sys_metadata>0aa313972fc42010c5d459ab2799b655</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Print</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_0aa313972fc42010c5d459ab2799b655</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_0aa313972fc42010c5d459ab2799b655">caa313972fc42010c5d459ab2799b658</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 21:23:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

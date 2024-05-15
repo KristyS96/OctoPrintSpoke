@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3800bfbe4772c91098dcce44846d4365" extends="cmdb_model" label="3D Print Model" max_length="40" name="x_258747_octoprint_3d_print_model" type="collection">
+        <element label="Default print profile" max_length="32" name="default_print_profile" reference="x_258747_octoprint_st_slicer_profiles" type="reference"/>
+        <element label="Direct URL" max_length="1024" name="direct_url" type="url"/>
+        <element label="GCODE File" max_length="40" name="gcode_file" type="file_attachment"/>
+        <element choice="1" label="Model Source" max_length="40" name="model_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cults3D" sequence="10" value="cults3d"/>
+                <element inactive_on_update="false" label="Custom" sequence="20" value="custom"/>
+                <element inactive_on_update="false" label="Thingiverse" sequence="30" value="thingiverse"/>
+            </choice>
+        </element>
+        <element label="Parent" max_length="32" name="parent" reference="x_258747_octoprint_3d_print_model" type="reference"/>
+        <element label="Rafts" max_length="40" name="rafts" type="boolean"/>
+        <element choice="1" label="Recommended Filament" max_length="40" name="recommended_filament" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PLA" sequence="10" value="pla"/>
+                <element inactive_on_update="false" label="ABS" sequence="20" value="abs"/>
+                <element inactive_on_update="false" label="TPU" sequence="30" value="tpu"/>
+                <element inactive_on_update="false" label="PETG" sequence="40" value="petg"/>
+            </choice>
+        </element>
+        <element label="Recommended Infill" max_length="40" name="recommended_infill" type="integer"/>
+        <element label="Resolution" max_length="40" name="resolution" type="string"/>
+        <element label="Source URL" max_length="1024" name="source_url" type="url"/>
+        <element label="Supports?" max_length="40" name="supports" type="boolean"/>
+        <index name="index">
+            <element name="default_print_profile"/>
+        </index>
+        <index name="index2">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

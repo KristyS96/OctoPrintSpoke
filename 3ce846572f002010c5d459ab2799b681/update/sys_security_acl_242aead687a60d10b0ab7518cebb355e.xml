@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_258747_octoprint_3d_printer</description>
+        <local_or_existing>Local</local_or_existing>
         <name>x_258747_octoprint_3d_printer</name>
         <operation display_value="delete">delete</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-01 14:29:42</sys_created_on>

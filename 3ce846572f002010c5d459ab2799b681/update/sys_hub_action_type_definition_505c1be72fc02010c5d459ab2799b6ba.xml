@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
         <copied_from>868987972f842010c5d459ab2799b6cd</copied_from>
         <copied_from_name>Print</copied_from_name>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>select_file</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.file_name}}","label":"action➛File Name","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Select file➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].variable}}","label":"step➛Trim file name➛variable","type":"step","ref":""},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].filename}}","label":"step➛Trim file name➛fileName","type":"step","ref":""},{"name":"{{step[1df51945-d950-45d0-baab-ab94d40d804d].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[1df51945-d950-45d0-baab-ab94d40d804d].status}}","label":"step➛Script step➛status","type":"step","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].status_code}}","label":"step➛Select file➛Status Code","type":"step","ref":""}]</label_cache>
@@ -1418,11 +1421,14 @@ outputs.filename = inputs.fileName.trim();
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>select_file</internal_name>
         <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":""},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":""},{"name":"{{action.attachment.file_name}}","label":"action➛Attachment➛File name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.file_name}}","label":"action➛File Name","type":"action","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].sn_auth_token}}","label":"step➛Select file➛Credential Value","type":"step","ref":""},{"name":"{{step[c1530cf3-2ebd-4983-b8e6-06cae5dc8c0e].sn_auth_token}}","label":"step➛Upload GCODE➛Credential Value","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[cc644d64-8efa-4a02-a02e-29aa054a3b99].apikeystring}}","label":"step➛Script step➛apiKeyString","type":"step","ref":""},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].variable}}","label":"step➛Trim file name➛variable","type":"step","ref":""},{"name":"{{step[975eb5a7-8eb7-41c7-8753-7ddfd110da70].filename}}","label":"step➛Trim file name➛fileName","type":"step","ref":""},{"name":"{{step[1df51945-d950-45d0-baab-ab94d40d804d].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[1df51945-d950-45d0-baab-ab94d40d804d].status}}","label":"step➛Script step➛status","type":"step","ref":""},{"name":"{{step[fc1fcefc-b2ab-4dcd-a934-78e4749f9eae].status_code}}","label":"step➛Select file➛Status Code","type":"step","ref":""}]</label_cache>
         <master>true</master>

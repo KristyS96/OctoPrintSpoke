@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -39,7 +39,7 @@
 		inputs['table_name'] = 'x_snc_makenow_makenow_swag_request';
 
 		//sn_fd.FlowAPI.getRunner().flow('x_snc_makenow.print_an_item').inForeground().withInputs(inputs).run();
-		sn_fd.FlowAPI.getRunner().flow('x_snc_makenow.print_an_item').inBackground().withInputs(inputs).run();
+		sn_fd.FlowAPI.getRunner().flow('x_snc_makenow.swag_an_item_v2').inForeground().withInputs(inputs).run();
 		
 	} catch (ex) {
 		var message = ex.getMessage();
@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12c8244f87be2550d5857518cebb3575</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Resubmit Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_ui_action_12c8244f87be2550d5857518cebb3575</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-18 19:00:52</sys_updated_on>
+        <sys_updated_on>2024-04-29 11:44:09</sys_updated_on>
         <table>x_snc_makenow_makenow_swag_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

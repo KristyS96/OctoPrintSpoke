@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kristy</sys_created_by>
         <sys_created_on>2022-05-17 13:08:59</sys_created_on>
-        <sys_id>a2681a69476b019098dcce44846d437b</sys_id>
         <sys_name>OctoPrint Port</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>

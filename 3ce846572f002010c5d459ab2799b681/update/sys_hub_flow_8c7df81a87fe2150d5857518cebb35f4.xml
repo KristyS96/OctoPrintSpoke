@@ -4,12 +4,16 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>test_flow</internal_name>
         <label_cache>[]</label_cache>
         <latest_snapshot/>

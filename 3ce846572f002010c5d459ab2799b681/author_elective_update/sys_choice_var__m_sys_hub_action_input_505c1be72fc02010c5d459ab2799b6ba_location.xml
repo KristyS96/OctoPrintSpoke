@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="location" table="var__m_sys_hub_action_input_505c1be72fc02010c5d459ab2799b6ba" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <name>var__m_sys_hub_action_input_505c1be72fc02010c5d459ab2799b6ba</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kristy</sys_created_by>
+            <sys_created_on>2022-05-10 15:26:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>location</sys_name>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_505c1be72fc02010c5d459ab2799b6ba_location</sys_update_name>
+            <sys_updated_by>kristy</sys_updated_by>
+            <sys_updated_on>2022-05-10 15:26:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_505c1be72fc02010c5d459ab2799b6ba</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 16:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 16:22:05</sys_updated_on>
+            <value>local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SD Card</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_505c1be72fc02010c5d459ab2799b6ba</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-30 16:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-30 16:22:05</sys_updated_on>
+            <value>SD Card</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

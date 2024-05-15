@@ -13,6 +13,8 @@
         <comments/>
         <default_grant_type>authorization_code</default_grant_type>
         <id_token_lifespan>0</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
         <logo_url/>
         <message_signature_lifespan>0</message_signature_lifespan>
         <mobile_client>false</mobile_client>

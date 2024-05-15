@@ -21,7 +21,7 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -29,7 +29,7 @@
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
-        <model display_value="K23 Coaster">3f4df64687362150d5857518cebb35b5</model>
+        <model display_value="Coaster">3f4df64687362150d5857518cebb35b5</model>
         <name>K23 Coaster</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
@@ -40,6 +40,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -81,14 +82,14 @@ current.swag_model = '3f4df64687362150d5857518cebb35b5';]]></script>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-05-16 05:06:43</sys_created_on>
         <sys_id>df154c9e87ba2150d5857518cebb3526</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>K23 Coaster</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sc_cat_item_producer_df154c9e87ba2150d5857518cebb3526</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-18 16:15:30</sys_updated_on>
+        <sys_updated_on>2024-04-24 17:20:17</sys_updated_on>
         <table_name>x_snc_makenow_makenow_swag_request</table_name>
         <taxonomy_topic/>
         <template/>
@@ -96,6 +97,7 @@ current.swag_model = '3f4df64687362150d5857518cebb35b5';]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version>3</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

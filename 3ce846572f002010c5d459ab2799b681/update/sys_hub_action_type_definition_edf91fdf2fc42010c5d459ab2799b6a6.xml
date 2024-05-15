@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Job operations">806fdb2f2fc02010c5d459ab2799b651</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>check_job_status</internal_name>
         <label_cache>[{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].est_print_time}}","label":"step➛Script step➛Est Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].file_name}}","label":"step➛Script step➛File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_user}}","label":"step➛Script step➛Print User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_time_left}}","label":"step➛Script step➛Print Time Left","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].printer_state}}","label":"step➛Script step➛Printer State","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].current_print_time}}","label":"step➛Script step➛Current Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_time}}","label":"step➛Script step➛Current Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].percent_complete}}","label":"step➛Script step➛Percent Complete","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
@@ -1713,6 +1716,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=828747ec8797c510b0ab7518cebb35c5"/>
     <sys_hub_action_output action="delete_multiple" query="model=edf91fdf2fc42010c5d459ab2799b6a6^sys_idNOT IN568787ec8797c510b0ab7518cebb353c,d68787ec8797c510b0ab7518cebb3541"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD128787ec6b97c5105c201280c2f22d3a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FD128787ec6b97c5105c201280c2f22d3a":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD128787ec6b97c5105c201280c2f22d3a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"e812caf8-8fb9-4be8-9166-42639cd2a90d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD128787ec6b97c5105c201280c2f22d3a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 12:55:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d28787ec8797c510b0ab7518cebb353a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD128787ec6b97c5105c201280c2f22d3a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_d28787ec8797c510b0ab7518cebb353a</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:55:57</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1994,11 +2020,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Job operations">806fdb2f2fc02010c5d459ab2799b651</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>check_job_status</internal_name>
         <label_cache>[{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].est_print_time}}","label":"step➛Script step➛Est Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].file_name}}","label":"step➛Script step➛File Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_user}}","label":"step➛Script step➛Print User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_time_left}}","label":"step➛Script step➛Print Time Left","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].printer_state}}","label":"step➛Script step➛Printer State","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc545d89-b2ed-42b8-910d-765bb30e40d3].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].current_print_time}}","label":"step➛Script step➛Current Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].print_time}}","label":"step➛Script step➛Current Print Time","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cc27ab36-fe54-425a-85da-b823904e5aa7].percent_complete}}","label":"step➛Script step➛Percent Complete","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
@@ -3699,6 +3728,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3787c7ec8797c510b0ab7518cebb35be"/>
     <sys_hub_action_output action="delete_multiple" query="model=659e326f2f002010c5d459ab2799b612^sys_idNOT IN88970bec8797c510b0ab7518cebb351f,c8970bec8797c510b0ab7518cebb3524"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD44970bec7497c5109007ba4c6010501d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FD44970bec7497c5109007ba4c6010501d":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD44970bec7497c5109007ba4c6010501d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"e812caf8-8fb9-4be8-9166-42639cd2a90d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD44970bec7497c5109007ba4c6010501d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 12:56:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08970bec8797c510b0ab7518cebb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD44970bec7497c5109007ba4c6010501d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_08970bec8797c510b0ab7518cebb351d</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:56:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

@@ -5,6 +5,8 @@
         <cache_isolation_level>USER</cache_isolation_level>
         <cache_strategy>CACHE_BY_QUERY</cache_strategy>
         <cache_ttl>0</cache_ttl>
+        <enhanced_capacity>false</enhanced_capacity>
+        <flow/>
         <name>Slicer Profiles Definition</name>
         <script><![CDATA[(function executeQuery(v_table, v_query) {
     // Main API:

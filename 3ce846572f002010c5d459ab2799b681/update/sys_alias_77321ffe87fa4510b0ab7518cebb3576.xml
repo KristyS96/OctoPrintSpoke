@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>x_258747_octoprint.OctoPrint_RPI_SSH_Credential_Alias</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>OctoPrint RPI SSH Credential Alias</name>
         <parent/>

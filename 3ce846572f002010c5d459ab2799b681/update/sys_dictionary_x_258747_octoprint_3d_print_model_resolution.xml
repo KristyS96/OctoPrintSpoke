@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-04 16:36:22</sys_created_on>
-        <sys_id>7400bfbe4772c91098dcce44846d4392</sys_id>
         <sys_name>Resolution</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>

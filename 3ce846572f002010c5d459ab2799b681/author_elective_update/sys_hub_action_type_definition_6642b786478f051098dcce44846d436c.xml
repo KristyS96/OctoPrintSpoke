@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Uses the ECC Attachment to transfer a file to the MID.</description>
+        <ih_action>false</ih_action>
+        <internal_name>copy_file_to_mid</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy file to MID</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-25 21:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6642b786478f051098dcce44846d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy file to MID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6642b786478f051098dcce44846d436c</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:37:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=6642b786478f051098dcce44846d436c"/>
+    <sys_variable_value action="DELETE" query="document_key=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_step_instance action="DELETE" query="action=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_input action="DELETE" query="model=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_output action="DELETE" query="model=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=6642b786478f051098dcce44846d436c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_6642b786478f051098dcce44846d436c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_6642b786478f051098dcce44846d436c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_6642b786478f051098dcce44846d436c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=6642b786478f051098dcce44846d436c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</application>
+        <file_path/>
+        <instance_id>4df5529edb4acd504d2bac44d496192e</instance_id>
+        <instance_name>makenowdev</instance_name>
+        <name>sys_hub_action_type_definition_6642b786478f051098dcce44846d436c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="File operations">6b4f5f2f2fc02010c5d459ab2799b6db</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Uses the ECC Attachment to transfer a file to the MID.</description>
+        <ih_action>false</ih_action>
+        <internal_name>copy_file_to_mid</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy file to MID</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-04-25 21:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6642b786478f051098dcce44846d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy file to MID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6642b786478f051098dcce44846d436c</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-04-25 21:37:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6642b786478f051098dcce44846d436c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6642b786478f051098dcce44846d436c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6642b786478f051098dcce44846d436c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6642b786478f051098dcce44846d436c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6642b786478f051098dcce44846d436c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6642b786478f051098dcce44846d436c"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=6642b786478f051098dcce44846d436c"/>
+</record_update>]]></payload>
+        <payload_hash>944342786</payload_hash>
+        <record_name>Copy file to MID</record_name>
+        <reverted_from/>
+        <source>5597db9a874f0110b0ab7518cebb35da</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 14:19:57</sys_created_on>
+        <sys_id>b5a793da874f0110b0ab7518cebb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180663e418c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 14:19:57</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>75a793da994f011045c427a0a48f443c</update_guid>
+        <update_guid_history>75a793da994f011045c427a0a48f443c:944342786</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 13:02:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>4ce23fa14d774644a736040e4d2c81d1</sys_id>
+        <sys_metadata>6642b786478f051098dcce44846d436c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy file to MID</sys_name>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_6642b786478f051098dcce44846d436c</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_6642b786478f051098dcce44846d436c">b5a793da874f0110b0ab7518cebb353c</sys_update_version>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 13:02:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
