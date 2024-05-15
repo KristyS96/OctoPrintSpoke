@@ -41,7 +41,7 @@
         <update_guid_history>9b09bde52236c9505b2823c59bec638f:-278613642</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Add a new printer">292971299736c950f944347e6253af62</sys_audit_delete>
+        <sys_audit_delete display_value="">292971299736c950f944347e6253af62</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 13:15:56</sys_created_on>

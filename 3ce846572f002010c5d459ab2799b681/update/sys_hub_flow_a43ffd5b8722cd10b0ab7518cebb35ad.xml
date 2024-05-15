@@ -4,18 +4,22 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>import_model_from_external_source</internal_name>
         <label_cache>[{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.record.sys_id","label":"2 - Create Record➛3D Print Model Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"sys_id"},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.direct_url","label":"4 - For Each➛root_array_object➛direct_url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable59353637","label":"1 - Get Thing Info➛Filament","reference_display":"Filament","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0b64a311-10ff-402c-aa5b-72ca4c432667"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable593536","label":"1 - Get Thing Info➛Resolution","reference_display":"Resolution","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"939cf83f-270a-4a35-b1ee-88bf91262eca"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable5935","label":"1 - Get Thing Info➛Supports?","reference_display":"Supports?","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c0b2b5f8-2193-44ff-b568-686728c1b2a7"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable59","label":"1 - Get Thing Info➛Rafts?","reference_display":"Rafts?","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"44101941-56b1-4f1b-8eab-8b20a622fbf7"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.thumbnail","label":"4 - For Each➛root_array_object➛thumbnail","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"562a615c-544f-413d-9591-ae47d05a8856.__dont_treat_as_error__","label":"7 - Add thumbnail to model➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"562a615c-544f-413d-9591-ae47d05a8856.__action_status__","label":"7 - Add thumbnail to model➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2bde16d7b9a2cd10e1ec57a9a9215de8","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"10452434-f66f-45f3-934d-e883d9741677.__dont_treat_as_error__","label":"3 - Add thumbnail to model➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"10452434-f66f-45f3-934d-e883d9741677.__action_status__","label":"3 - Add thumbnail to model➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2bde16d7b9a2cd10e1ec57a9a9215de8","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.table_name","label":"2 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.record","label":"2 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e387e916-65b1-476f-b3f6-304c94e41cf3.__action_status__","label":"1 - Add Worknote Link to Context➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e387e916-65b1-476f-b3f6-304c94e41cf3.__dont_treat_as_error__","label":"1 - Add Worknote Link to Context➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.__action_status__","label":"1 - Get Thing Info➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDe4675adf9062cd10e0aed53df613dd01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.__dont_treat_as_error__","label":"1 - Get Thing Info➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable","label":"1 - Get Thing Info➛Thing Name","reference_display":"Thing Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"afdeaebb-120c-4ee2-92d1-740dbc7cb12d"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable1","label":"1 - Get Thing Info➛Thing URL","reference_display":"Thing URL","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"473f4045-398b-4109-a2c4-9dc1e3d6aacb"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable2","label":"1 - Get Thing Info➛Thing Thumbnail","reference_display":"Thing Thumbnail","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f925da64-d6c0-4323-a0a1-f3472ddd3a1e"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable12","label":"1 - Get Thing Info➛Thing Files URL","reference_display":"Thing Files URL","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a624d0dc-dc72-498d-8672-f5f716402d30"}},{"name":"subflow.thingid","label":"Input➛thingID","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c9099c14-52ca-475f-bd49-a410a921ba24"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.record","label":"2 - Create Record➛3D Print Model Record","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.table_name","label":"2 - Create Record➛3D Print Model Table","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable5","label":"1 - Get Thing Info➛Thing Files List","reference_display":"Thing Files List","type":"array.object","base_type":"array.object","attributes":{"sourceId":"61f8c571-b81e-430b-821b-accff16293c5","child_name":"root_array_object","uiUniqueId":"91ba61cb-9c4b-4f97-90fe-a0418cf7c8f9","uiTypeLabel":"Array.Object","co_type_name":"FD72df561b68a2cd106ffb0ef73e796c71","child_label":"root_array_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"c737d659-c6ea-453e-9019-5f82ce7fe2d7","uiType":"array.object","child_type":"object","child_uiUniqueId":"3466a542-ebf4-46ee-bc22-231a6a050bc2"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item","label":"5 - For Each➛root_array_object","reference_display":"root_array_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.record","label":"6 - Create Record➛3D Print Model Record","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.table_name","label":"6 - Create Record➛3D Print Model Table","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.__action_status__","label":"6 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.__dont_treat_as_error__","label":"6 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.name","label":"4 - For Each➛root_array_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.download_url","label":"4 - For Each➛root_array_object➛download_url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>4e62e2db87a2cd10b0ab7518cebb35f9</master_snapshot>
         <name>Import model from Thingiverse</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,15 +33,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a43ffd5b8722cd10b0ab7518cebb35ad</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Import model from Thingiverse</sys_name>
         <sys_overrides/>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_hub_flow_a43ffd5b8722cd10b0ab7518cebb35ad</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-04 21:18:22</sys_updated_on>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-10 15:26:31</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a43ffd5b8722cd10b0ab7518cebb35ad"/>
@@ -90,6 +94,7 @@
         <element>thingid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -136,10 +141,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29775edf8762cd10b0ab7518cebb359a"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a43ffd5b8722cd10b0ab7518cebb35ad^sys_idNOT IN75775edf8762cd10b0ab7518cebb35a0"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -172,6 +179,7 @@
         <element>modelid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -218,10 +226,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=75775edf8762cd10b0ab7518cebb35a0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a43ffd5b8722cd10b0ab7518cebb35ad"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=a43ffd5b8722cd10b0ab7518cebb35ad^sys_idNOT IN07fe1ad787a2cd10b0ab7518cebb354c,3b016a5b87a2cd10b0ab7518cebb358e,3d775edf8762cd10b0ab7518cebb35ba,5229d65387a2cd10b0ab7518cebb3541,c8506e1b87a2cd10b0ab7518cebb35c6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -229,10 +239,11 @@
         <action_inputs/>
         <action_type display_value="Add thumbnail to model">27de16d787a2cd10b0ab7518cebb35a4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>27de16d787a2cd10b0ab7518cebb35a4</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -278,10 +289,11 @@
         <action_inputs/>
         <action_type display_value="Add thumbnail to model">27de16d787a2cd10b0ab7518cebb35a4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>27de16d787a2cd10b0ab7518cebb35a4</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>95ba0505-b3a7-4c1e-aa90-4130d8fae0ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -327,10 +339,11 @@
         <action_inputs/>
         <action_type display_value="Get Thing Info">58671adf8762cd10b0ab7518cebb358c</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>58671adf8762cd10b0ab7518cebb358c</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -364,10 +377,11 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -427,10 +441,11 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>95ba0505-b3a7-4c1e-aa90-4130d8fae0ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -488,6 +503,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a43ffd5b8722cd10b0ab7518cebb35ad"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a43ffd5b8722cd10b0ab7518cebb35ad^sys_idNOT INcc506e1b87a2cd10b0ab7518cebb35be,d8646f1b87a6cd10b0ab7518cebb355d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">80506e1b87a2cd10b0ab7518cebb35be</block>
         <comment/>
         <connected_to/>
@@ -498,6 +514,7 @@
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -535,6 +552,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cc506e1b87a2cd10b0ab7518cebb35be"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cc506e1b87a2cd10b0ab7518cebb35be"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">10646f1b87a6cd10b0ab7518cebb355d</block>
         <comment/>
         <connected_to/>
@@ -545,6 +563,7 @@
         <flow display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>4</order>
@@ -596,11 +615,11 @@
         <sys_created_on>2022-04-04 15:42:03</sys_created_on>
         <sys_id>71775edf8762cd10b0ab7518cebb359e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>thingID</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a43ffd5b8722cd10b0ab7518cebb35ad_thingid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-04 15:42:03</sys_updated_on>
         <url/>
@@ -621,44 +640,30 @@
         <sys_created_on>2022-04-04 15:42:03</sys_created_on>
         <sys_id>7d775edf8762cd10b0ab7518cebb35a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Model ID</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a43ffd5b8722cd10b0ab7518cebb35ad_modelid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-04 15:42:03</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a43ffd5b8722cd10b0ab7518cebb35ad"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a43ffd5b8722cd10b0ab7518cebb35ad"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a43ffd5b8722cd10b0ab7518cebb35ad^sys_idNOT IN0b62a6db87a2cd10b0ab7518cebb3542"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"0b62a6db87a2cd10b0ab7518cebb3542","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</plan_id>
-        <snapshot>bcb4a75b87a6cd10b0ab7518cebb35ac</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-04 16:29:56</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>0b62a6db87a2cd10b0ab7518cebb3542</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-04 21:18:22</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>import_model_from_thingiverse</internal_name>
         <label_cache>[{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.record.sys_id","label":"2 - Create Record➛3D Print Model Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_258747_octoprint_3d_print_model","column_name":"sys_id"},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.direct_url","label":"4 - For Each➛root_array_object➛direct_url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable59353637","label":"1 - Get Thing Info➛Filament","reference_display":"Filament","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0b64a311-10ff-402c-aa5b-72ca4c432667"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable593536","label":"1 - Get Thing Info➛Resolution","reference_display":"Resolution","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"939cf83f-270a-4a35-b1ee-88bf91262eca"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable5935","label":"1 - Get Thing Info➛Supports?","reference_display":"Supports?","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c0b2b5f8-2193-44ff-b568-686728c1b2a7"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable59","label":"1 - Get Thing Info➛Rafts?","reference_display":"Rafts?","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"44101941-56b1-4f1b-8eab-8b20a622fbf7"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.thumbnail","label":"4 - For Each➛root_array_object➛thumbnail","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"562a615c-544f-413d-9591-ae47d05a8856.__dont_treat_as_error__","label":"7 - Add thumbnail to model➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"562a615c-544f-413d-9591-ae47d05a8856.__action_status__","label":"7 - Add thumbnail to model➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2bde16d7b9a2cd10e1ec57a9a9215de8","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"10452434-f66f-45f3-934d-e883d9741677.__dont_treat_as_error__","label":"3 - Add thumbnail to model➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"10452434-f66f-45f3-934d-e883d9741677.__action_status__","label":"3 - Add thumbnail to model➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD2bde16d7b9a2cd10e1ec57a9a9215de8","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.table_name","label":"2 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"91778fe0-a52f-44e8-9fcc-169a4dc2cfaf.record","label":"2 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e387e916-65b1-476f-b3f6-304c94e41cf3.__action_status__","label":"1 - Add Worknote Link to Context➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e387e916-65b1-476f-b3f6-304c94e41cf3.__dont_treat_as_error__","label":"1 - Add Worknote Link to Context➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.__action_status__","label":"1 - Get Thing Info➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDe4675adf9062cd10e0aed53df613dd01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"7a4a3b1e-31cd-406f-ae3f-9d8a0dd8b10f"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.__dont_treat_as_error__","label":"1 - Get Thing Info➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"116c4de2-d116-45de-a77f-5967470e8901"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable","label":"1 - Get Thing Info➛Thing Name","reference_display":"Thing Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"afdeaebb-120c-4ee2-92d1-740dbc7cb12d"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable1","label":"1 - Get Thing Info➛Thing URL","reference_display":"Thing URL","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"473f4045-398b-4109-a2c4-9dc1e3d6aacb"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable2","label":"1 - Get Thing Info➛Thing Thumbnail","reference_display":"Thing Thumbnail","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f925da64-d6c0-4323-a0a1-f3472ddd3a1e"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable12","label":"1 - Get Thing Info➛Thing Files URL","reference_display":"Thing Files URL","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a624d0dc-dc72-498d-8672-f5f716402d30"}},{"name":"subflow.thingid","label":"Input➛thingID","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c9099c14-52ca-475f-bd49-a410a921ba24"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.record","label":"2 - Create Record➛3D Print Model Record","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.table_name","label":"2 - Create Record➛3D Print Model Table","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a9c3bfb-001e-47cf-9de8-fe4be7f72aaa.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54cf8b59-eae4-4a53-b0ec-caae072087da.variable5","label":"1 - Get Thing Info➛Thing Files List","reference_display":"Thing Files List","type":"array.object","base_type":"array.object","attributes":{"sourceId":"61f8c571-b81e-430b-821b-accff16293c5","child_name":"root_array_object","uiUniqueId":"91ba61cb-9c4b-4f97-90fe-a0418cf7c8f9","uiTypeLabel":"Array.Object","co_type_name":"FD72df561b68a2cd106ffb0ef73e796c71","child_label":"root_array_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"c737d659-c6ea-453e-9019-5f82ce7fe2d7","uiType":"array.object","child_type":"object","child_uiUniqueId":"3466a542-ebf4-46ee-bc22-231a6a050bc2"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item","label":"5 - For Each➛root_array_object","reference_display":"root_array_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.record","label":"6 - Create Record➛3D Print Model Record","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.table_name","label":"6 - Create Record➛3D Print Model Table","reference":"x_258747_octoprint_3d_print_model","reference_display":"3D Print Model","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.__action_status__","label":"6 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa899cf3-1318-44d4-96f4-15df00b8b03a.__dont_treat_as_error__","label":"6 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.name","label":"4 - For Each➛root_array_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"95ba0505-b3a7-4c1e-aa90-4130d8fae0ef.item.download_url","label":"4 - For Each➛root_array_object➛download_url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <master>true</master>
@@ -738,6 +743,7 @@
         <element>thingid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -784,10 +790,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c262e2db87a2cd10b0ab7518cebb35fc"/>
     <sys_hub_flow_output action="delete_multiple" query="model=4e62e2db87a2cd10b0ab7518cebb35f9^sys_idNOT IN866226db87a2cd10b0ab7518cebb3590"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -820,6 +828,7 @@
         <element>modelid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -866,10 +875,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=866226db87a2cd10b0ab7518cebb3590"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4e62e2db87a2cd10b0ab7518cebb35f9"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=4e62e2db87a2cd10b0ab7518cebb35f9^sys_idNOT IN166226db87a2cd10b0ab7518cebb35cf,1a6226db87a2cd10b0ab7518cebb35c8,1a6226db87a2cd10b0ab7518cebb35ec,926226db87a2cd10b0ab7518cebb35dc,966226db87a2cd10b0ab7518cebb35e1"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -877,10 +888,11 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -940,10 +952,11 @@
         <action_inputs/>
         <action_type display_value="Get Thing Info">58671adf8762cd10b0ab7518cebb358c</action_type>
         <action_type_parent display_value="Get Thing Info">3b110adb8722cd10b0ab7518cebb359d</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>58671adf8762cd10b0ab7518cebb358c</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -977,10 +990,11 @@
         <action_inputs/>
         <action_type display_value="Add thumbnail to model">27de16d787a2cd10b0ab7518cebb35a4</action_type>
         <action_type_parent display_value="Add thumbnail to model">151bd6d387a2cd10b0ab7518cebb35c3</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>27de16d787a2cd10b0ab7518cebb35a4</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>95ba0505-b3a7-4c1e-aa90-4130d8fae0ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1026,10 +1040,11 @@
         <action_inputs/>
         <action_type display_value="Add thumbnail to model">27de16d787a2cd10b0ab7518cebb35a4</action_type>
         <action_type_parent display_value="Add thumbnail to model">151bd6d387a2cd10b0ab7518cebb35c3</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>27de16d787a2cd10b0ab7518cebb35a4</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1075,10 +1090,11 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>95ba0505-b3a7-4c1e-aa90-4130d8fae0ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1136,6 +1152,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4e62e2db87a2cd10b0ab7518cebb35f9"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=4e62e2db87a2cd10b0ab7518cebb35f9^sys_idNOT IN066226db87a2cd10b0ab7518cebb359b,d364ef1b87a6cd10b0ab7518cebb35b8"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">80506e1b87a2cd10b0ab7518cebb35be</block>
         <comment/>
         <connected_to/>
@@ -1146,6 +1163,7 @@
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1183,6 +1201,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=066226db87a2cd10b0ab7518cebb359b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=066226db87a2cd10b0ab7518cebb359b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">10646f1b87a6cd10b0ab7518cebb355d</block>
         <comment/>
         <connected_to/>
@@ -1193,6 +1212,7 @@
         <flow display_value="Import model from Thingiverse">4e62e2db87a2cd10b0ab7518cebb35f9</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>4</order>
@@ -1244,11 +1264,11 @@
         <sys_created_on>2022-04-04 16:29:52</sys_created_on>
         <sys_id>066226db87a2cd10b0ab7518cebb357f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>thingID</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4e62e2db87a2cd10b0ab7518cebb35f9_thingid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-04 16:29:52</sys_updated_on>
         <url/>
@@ -1269,19 +1289,37 @@
         <sys_created_on>2022-04-04 16:29:52</sys_created_on>
         <sys_id>4a6226db87a2cd10b0ab7518cebb3595</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Model ID</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_4e62e2db87a2cd10b0ab7518cebb35f9_modelid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-04 16:29:52</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4e62e2db87a2cd10b0ab7518cebb35f9"/>
-    <sys_hub_flow action="update">
+    <sys_hub_flow action="UPDATE">
         <sys_id>a43ffd5b8722cd10b0ab7518cebb35ad</sys_id>
         <latest_snapshot>4e62e2db87a2cd10b0ab7518cebb35f9</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a43ffd5b8722cd10b0ab7518cebb35ad"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a43ffd5b8722cd10b0ab7518cebb35ad^sys_idNOT IN0b62a6db87a2cd10b0ab7518cebb3542"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"0b62a6db87a2cd10b0ab7518cebb3542","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Import model from Thingiverse">a43ffd5b8722cd10b0ab7518cebb35ad</plan_id>
+        <snapshot>bcb4a75b87a6cd10b0ab7518cebb35ac</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 16:29:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b62a6db87a2cd10b0ab7518cebb3542</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 21:18:22</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>

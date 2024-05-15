@@ -3,6 +3,7 @@
         <configuration_template/>
         <connection_type>sys_connection</connection_type>
         <id>x_258747_octoprint.OctoPrint_SSH_Connection_Alias</id>
+        <is_internal>false</is_internal>
         <multiple_connections>true</multiple_connections>
         <name>OctoPrint SSH Connection Alias</name>
         <parent/>

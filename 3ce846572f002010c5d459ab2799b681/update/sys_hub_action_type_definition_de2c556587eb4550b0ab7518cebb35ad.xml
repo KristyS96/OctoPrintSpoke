@@ -6,12 +6,15 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build/>
         <copied_from>91cb9d2587eb4550b0ab7518cebb3501</copied_from>
         <copied_from_name>Clean up MID GCODE files</copied_from_name>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>clean_up_mid_gcode_files</internal_name>
         <label_cache>[{"name":"{{action.document}}","label":"action➛Document","type":"action","ref":"","reference_display":"MakeNow Event","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event}}","label":"action➛Event","type":"action","ref":"x_snc_makenow_makenow_event","reference_display":"MakeNow Event","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event.sys_id}}","label":"action➛Event➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_snc_makenow_makenow_event","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.file_types}}","label":"action➛File Types","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"GCODE","value":"gcode","order":1.0},{"label":"JSON","value":"json","order":2.0},{"label":"Both","value":"both","order":3.0}],"attributes":{}},{"name":"{{action.mid}}","label":"action➛MID","type":"action","ref":"","reference_display":"MID Server","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9be34df5-dd7f-441b-b148-1bbe71173c4b].variable}}","label":"step➛QR Code Data➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9be34df5-dd7f-441b-b148-1bbe71173c4b].url}}","label":"step➛QR Code Data➛url","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e045719a-8222-4583-93bb-44250316d4eb].record}}","label":"step➛Look Up Record step➛Attachment Record","type":"step","ref":"sys_attachment","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
@@ -20,6 +23,7 @@
         <name>Clean up MID GCODE files</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>kristy</sys_created_by>
@@ -351,6 +355,7 @@
         <element>mid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -397,12 +402,36 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d62c556587eb4550b0ab7518cebb35b3"/>
     <sys_hub_action_output action="delete_multiple" query="model=de2c556587eb4550b0ab7518cebb35ad^sys_idNOT IN622c556587eb4550b0ab7518cebb35e3,622c556587eb4550b0ab7518cebb35e8"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDae2c55651feb45508925d7cdb97cb0e0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FDae2c55651feb45508925d7cdb97cb0e0":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDae2c55651feb45508925d7cdb97cb0e0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a77f4423-e1ea-40e7-a1fc-303f136329f3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDae2c55651feb45508925d7cdb97cb0e0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-18 17:56:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>622c556587eb4550b0ab7518cebb35e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDae2c55651feb45508925d7cdb97cb0e0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_622c556587eb4550b0ab7518cebb35e1</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-18 17:56:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -435,6 +464,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -482,6 +512,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -520,6 +551,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -567,6 +599,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -599,11 +632,11 @@
         <sys_created_on>2022-05-18 17:56:22</sys_created_on>
         <sys_id>1a2c556587eb4550b0ab7518cebb35b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>MID</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_de2c556587eb4550b0ab7518cebb35ad_mid_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-18 17:56:22</sys_updated_on>
         <url/>
@@ -624,11 +657,11 @@
         <sys_created_on>2022-05-18 17:56:23</sys_created_on>
         <sys_id>6e2c556587eb4550b0ab7518cebb35ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_de2c556587eb4550b0ab7518cebb35ad___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-18 17:56:23</sys_updated_on>
         <url/>
@@ -647,11 +680,11 @@
         <sys_created_on>2022-05-18 17:56:23</sys_created_on>
         <sys_id>e22c556587eb4550b0ab7518cebb35e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_de2c556587eb4550b0ab7518cebb35ad___action_status___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-18 17:56:23</sys_updated_on>
         <url/>

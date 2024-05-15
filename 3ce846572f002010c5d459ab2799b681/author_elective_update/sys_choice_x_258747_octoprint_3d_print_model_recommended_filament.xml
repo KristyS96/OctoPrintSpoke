@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-04-04 13:53:21</sys_created_on>
-            <sys_id>119e395b8722cd10b0ab7518cebb3513</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>recommended_filament</sys_name>
             <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-04-04 13:53:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>599e395b8722cd10b0ab7518cebb3512</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-04-04 13:53:21</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-04-04 13:53:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d99e395b8722cd10b0ab7518cebb351d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-04-04 13:53:21</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-04-04 13:53:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5d9e395b8722cd10b0ab7518cebb3517</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-04-04 13:53:21</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2022-04-04 13:53:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>599e395b8722cd10b0ab7518cebb3522</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-04-04 13:53:21</sys_updated_on>

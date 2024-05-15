@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">a0ec16de87020110d5857518cebb358b</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-15 19:07:40</sys_created_on>
+        <sys_id>0100bfbe4772c91098dcce44846d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-15 19:07:40</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

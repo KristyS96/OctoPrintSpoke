@@ -156,7 +156,7 @@
         <update_guid_history>d709bde54f36c950fdaea5d30f107e8b:284766559</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SSH User">112971299736c950f944347e6253af2d</sys_audit_delete>
+        <sys_audit_delete display_value="">112971299736c950f944347e6253af2d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 13:15:55</sys_created_on>

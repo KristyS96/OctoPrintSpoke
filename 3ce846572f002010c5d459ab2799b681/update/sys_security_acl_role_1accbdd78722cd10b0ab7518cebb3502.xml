@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-04 13:45:30</sys_updated_on>
         <sys_user_role display_value="x_258747_octoprint.3d_print_model_user" name="x_258747_octoprint.3d_print_model_user">92cc7dd78722cd10b0ab7518cebb35ec</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

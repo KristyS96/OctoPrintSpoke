@@ -6,12 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Job operations">806fdb2f2fc02010c5d459ab2799b651</category>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-hotfix1a-03-31-2022_04-12-2022_2208.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>Use this action to Start, Cancel, Pause or Restart a job</description>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>issue_a_job_command</internal_name>
         <label_cache>[{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
@@ -19,6 +21,7 @@
         <name>Issue a job command</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -26,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>872493972fc42010c5d459ab2799b65a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Issue a job command</sys_name>
         <sys_overrides/>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
@@ -34,7 +37,7 @@
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_872493972fc42010c5d459ab2799b65a</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
-        <sys_updated_on>2022-05-03 12:53:21</sys_updated_on>
+        <sys_updated_on>2022-05-10 15:26:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -542,6 +545,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -588,6 +592,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -607,11 +612,11 @@
         <sys_created_on>2022-05-03 12:53:12</sys_created_on>
         <sys_id>07e6cbac8797c510b0ab7518cebb350f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2b77dfdb2fc42010c5d459ab2799b60e_sn_auth_token_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:12</sys_updated_on>
         <url/>
@@ -719,18 +724,6 @@ var a = "";
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=57779fdb2fc42010c5d459ab2799b6a8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>57779fdb2fc42010c5d459ab2799b6a8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:35</sys_created_on>
-        <sys_id>e087131f2fc42010c5d459ab2799b625</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
         <id>57779fdb2fc42010c5d459ab2799b6a8</id>
         <sys_created_by>admin</sys_created_by>
@@ -741,42 +734,6 @@ var a = "";
         <sys_updated_on>2020-10-29 21:22:31</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_57779fdb2fc42010c5d459ab2799b6a8</table>
         <value>{{action.command}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>57779fdb2fc42010c5d459ab2799b6a8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:35</sys_created_on>
-        <sys_id>6887131f2fc42010c5d459ab2799b625</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>57779fdb2fc42010c5d459ab2799b6a8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:35</sys_created_on>
-        <sys_id>a487131f2fc42010c5d459ab2799b625</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>57779fdb2fc42010c5d459ab2799b6a8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:31</sys_created_on>
-        <sys_id>e7779fdb2fc42010c5d459ab2799b6f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:31</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_57779fdb2fc42010c5d459ab2799b6a8^id=57779fdb2fc42010c5d459ab2799b6a8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=57779fdb2fc42010c5d459ab2799b6a8"/>
@@ -812,6 +769,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -858,6 +816,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -894,6 +853,7 @@ var a = "";
         <element>action</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -940,6 +900,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -975,6 +936,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1021,6 +983,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1040,11 +1003,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:11</sys_created_on>
         <sys_id>87e68bac8797c510b0ab7518cebb35c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>command</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_57779fdb2fc42010c5d459ab2799b6a8_command_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:11</sys_updated_on>
         <url/>
@@ -1063,11 +1026,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:11</sys_created_on>
         <sys_id>8be68bac8797c510b0ab7518cebb35c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>action</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_57779fdb2fc42010c5d459ab2799b6a8_action_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:11</sys_updated_on>
         <url/>
@@ -1159,6 +1122,7 @@ var a = "";
         <element>printer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1205,6 +1169,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1241,6 +1206,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1287,6 +1253,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1325,6 +1292,7 @@ var a = "";
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1372,12 +1340,36 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=17e6cbac8797c510b0ab7518cebb3540"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=17e6cbac8797c510b0ab7518cebb3540"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD83e6cbac5397c510035a8dea32be8b37</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FD83e6cbac5397c510035a8dea32be8b37":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD83e6cbac5397c510035a8dea32be8b37.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d43fc601-d97a-4fb8-8729-287591cb5f71\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD83e6cbac5397c510035a8dea32be8b37\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 12:53:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47e6cbac8797c510b0ab7518cebb3537</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD83e6cbac5397c510035a8dea32be8b37</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_47e6cbac8797c510b0ab7518cebb3537</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:53:18</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1410,6 +1402,7 @@ var a = "";
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1457,6 +1450,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1489,11 +1483,11 @@ var a = "";
         <sys_created_on>2020-10-29 21:22:30</sys_created_on>
         <sys_id>5f779fdb2fc42010c5d459ab2799b6a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Command</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_872493972fc42010c5d459ab2799b65a_command_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-29 21:22:30</sys_updated_on>
         <url/>
@@ -1512,11 +1506,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:11</sys_created_on>
         <sys_id>f2e68bac8797c510b0ab7518cebb35b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Printer</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_872493972fc42010c5d459ab2799b65a_printer_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:11</sys_updated_on>
         <url/>
@@ -1639,11 +1633,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:12</sys_created_on>
         <sys_id>1be6cbac8797c510b0ab7518cebb3546</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_872493972fc42010c5d459ab2799b65a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:12</sys_updated_on>
         <url/>
@@ -1662,11 +1656,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:12</sys_created_on>
         <sys_id>57e6cbac8797c510b0ab7518cebb353f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_872493972fc42010c5d459ab2799b65a___action_status___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:12</sys_updated_on>
         <url/>
@@ -1676,8 +1670,8 @@ var a = "";
     <sys_hub_action_plan action="delete_multiple" query="action_id=872493972fc42010c5d459ab2799b65a^sys_idNOT IN1e87931f2fc42010c5d459ab2799b6bd"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Issue a job command">872493972fc42010c5d459ab2799b65a</action_id>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1e87931f2fc42010c5d459ab2799b6bd","name":"plan","plan_signature":null}}</plan>
-        <snapshot>51f64fac8797c510b0ab7518cebb3598</snapshot>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1e87931f2fc42010c5d459ab2799b6bd","name":"plan","plan_signature":null}}</plan>
+        <snapshot>2b1c1442878a4e10d5857518cebb356f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-29 21:22:43</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1695,11 +1689,14 @@ var a = "";
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Job operations">806fdb2f2fc02010c5d459ab2799b651</category>
         <copied_from/>
         <copied_from_name/>
         <description>Use this action to Start, Cancel, Pause or Restart a job</description>
+        <flow_priority/>
         <internal_name>issue_a_job_command</internal_name>
         <label_cache>[{"name":"{{action.comman}}","label":"action➛Comman","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.command}}","label":"action➛Command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer}}","label":"action➛Printer","type":"action","ref":"","reference_display":"3D Printer","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.printer.associated_mid}}","label":"action➛Printer➛Associated MID","type":"action","ref":"ecc_agent","reference_display":"Associated MID","base_type":"reference","parent_table_name":"x_258747_octoprint_3d_printer","column_name":"associated_mid","choices":null,"attributes":{}},{"name":"{{step[58081dae-9296-43d7-8b77-2fc5756eff6b].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[5d3dd724-3834-4ad0-85bf-73228935863e].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].variable}}","label":"step➛Determine Action➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].actione}}","label":"step➛Determine Action➛actione","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].action}}","label":"step➛Determine Action➛action","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[de2f6e95-ae11-4c03-be2f-5079a91158e0].command}}","label":"step➛Determine Action➛command","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
@@ -2229,6 +2226,7 @@ var a = "";
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2275,6 +2273,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2294,11 +2293,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:20</sys_created_on>
         <sys_id>45f64fac8797c510b0ab7518cebb3578</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2587531f2fc42010c5d459ab2799b69d_sn_auth_token_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
         <url/>
@@ -2406,18 +2405,6 @@ var a = "";
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5587531f2fc42010c5d459ab2799b66c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5587531f2fc42010c5d459ab2799b66c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:38</sys_created_on>
-        <sys_id>2d87531f2fc42010c5d459ab2799b692</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>command</field>
         <id>5587531f2fc42010c5d459ab2799b66c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2428,42 +2415,6 @@ var a = "";
         <sys_updated_on>2020-10-29 21:22:39</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5587531f2fc42010c5d459ab2799b66c</table>
         <value>{{action.command}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>5587531f2fc42010c5d459ab2799b66c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:38</sys_created_on>
-        <sys_id>a187531f2fc42010c5d459ab2799b693</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>5587531f2fc42010c5d459ab2799b66c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:38</sys_created_on>
-        <sys_id>ed87531f2fc42010c5d459ab2799b692</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5587531f2fc42010c5d459ab2799b66c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-29 21:22:38</sys_created_on>
-        <sys_id>6587531f2fc42010c5d459ab2799b693</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5587531f2fc42010c5d459ab2799b66c^id=5587531f2fc42010c5d459ab2799b66c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5587531f2fc42010c5d459ab2799b66c"/>
@@ -2499,6 +2450,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2545,6 +2497,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2581,6 +2534,7 @@ var a = "";
         <element>action</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2627,6 +2581,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2662,6 +2617,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2708,6 +2664,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2727,11 +2684,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:20</sys_created_on>
         <sys_id>49f64fac8797c510b0ab7518cebb3549</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>command</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5587531f2fc42010c5d459ab2799b66c_command_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
         <url/>
@@ -2750,11 +2707,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:20</sys_created_on>
         <sys_id>4df64fac8797c510b0ab7518cebb3547</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>action</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5587531f2fc42010c5d459ab2799b66c_action_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
         <url/>
@@ -2846,6 +2803,7 @@ var a = "";
         <element>printer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2892,6 +2850,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2928,6 +2887,7 @@ var a = "";
         <element>command</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2974,6 +2934,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3012,6 +2973,7 @@ var a = "";
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3059,12 +3021,36 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=15f64fac8797c510b0ab7518cebb358d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=15f64fac8797c510b0ab7518cebb358d"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8df64faca397c510cc1c3f9a638b6a85</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3ce846572f002010c5d459ab2799b681</scope_name>
+        <serialized_content>{"FlowDesigner:FD8df64faca397c510cc1c3f9a638b6a85":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD8df64faca397c510cc1c3f9a638b6a85.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d43fc601-d97a-4fb8-8729-287591cb5f71\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8df64faca397c510cc1c3f9a638b6a85\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>kristy</sys_created_by>
+        <sys_created_on>2022-05-03 12:53:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51f64fac8797c510b0ab7518cebb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8df64faca397c510cc1c3f9a638b6a85</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+        <sys_update_name>sys_complex_object_51f64fac8797c510b0ab7518cebb3586</sys_update_name>
+        <sys_updated_by>kristy</sys_updated_by>
+        <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3097,6 +3083,7 @@ var a = "";
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3144,6 +3131,7 @@ var a = "";
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3176,11 +3164,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:20</sys_created_on>
         <sys_id>41f64fac8797c510b0ab7518cebb3531</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Printer</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1d87531f2fc42010c5d459ab2799b65c_printer_en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
         <url/>
@@ -3199,11 +3187,11 @@ var a = "";
         <sys_created_on>2020-10-29 21:22:38</sys_created_on>
         <sys_id>d987531f2fc42010c5d459ab2799b669</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Command</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1d87531f2fc42010c5d459ab2799b65c_command_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
         <url/>
@@ -3326,11 +3314,11 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:21</sys_created_on>
         <sys_id>51f64fac8797c510b0ab7518cebb3593</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1d87531f2fc42010c5d459ab2799b65c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:21</sys_updated_on>
         <url/>
@@ -3349,19 +3337,20 @@ var a = "";
         <sys_created_on>2022-05-03 12:53:20</sys_created_on>
         <sys_id>55f64fac8797c510b0ab7518cebb358c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1d87531f2fc42010c5d459ab2799b65c___action_status___en</sys_update_name>
         <sys_updated_by>kristy</sys_updated_by>
         <sys_updated_on>2022-05-03 12:53:20</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1d87531f2fc42010c5d459ab2799b65c"/>
-    <sys_hub_action_type_definition action="update">
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>872493972fc42010c5d459ab2799b65a</sys_id>
         <latest_snapshot>1d87531f2fc42010c5d459ab2799b65c</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch2-hotfix1-04-15-2024_04-17-2024_1014.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

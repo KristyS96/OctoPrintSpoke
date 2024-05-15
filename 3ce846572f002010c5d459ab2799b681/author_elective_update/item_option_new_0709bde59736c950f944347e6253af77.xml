@@ -156,7 +156,7 @@
         <update_guid_history>cf09bde55536c950b3a984eeb1c2717c:96614068</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Printer Name">992971299736c950f944347e6253af0e</sys_audit_delete>
+        <sys_audit_delete display_value="">992971299736c950f944347e6253af0e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 13:15:55</sys_created_on>

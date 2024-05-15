@@ -61,6 +61,7 @@
    //      gs.info("dynamic connection url = " + jsonDynamicParsed["connection.connection_url"]);
 })(aliasId, connectionSysId, jsonDefaultData, jsonDynamicData);
 ]]></post_process_script>
+        <pre_edit_script/>
         <sys_class_name>sys_alias_templates</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-15 19:53:08</sys_created_on>

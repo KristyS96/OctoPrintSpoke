@@ -191,7 +191,7 @@
         <update_guid_history>99127583f52641500a5fb808f9d9447e:1306329224,70413d9394628150d54e9bb304a96b86:-486041348,99127583f52641500a5fb808f9d9447e:1306329224,991275831326415020fd7f57e1485764:-1355485778</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Minty Donut">f18a087b87e20150b0ab7518cebb350e</sys_audit_delete>
+        <sys_audit_delete display_value="">f18a087b87e20150b0ab7518cebb350e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-05 18:43:15</sys_created_on>
@@ -201,7 +201,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Minty Donut</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
-        <sys_parent display_value="MakeNow Swag Request">dc95c3d6874e0110b0ab7518cebb35b8</sys_parent>
+        <sys_parent display_value="">dc95c3d6874e0110b0ab7518cebb35b8</sys_parent>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>

@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="command" table="var__m_sys_hub_step_ext_input_5587531f2fc42010c5d459ab2799b66c" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>command</element>
+            <name>var__m_sys_hub_step_ext_input_5587531f2fc42010c5d459ab2799b66c</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-29 21:22:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>command</sys_name>
+            <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>command</element>
@@ -9,31 +24,15 @@
             <language>en</language>
             <name>var__m_sys_hub_step_ext_input_5587531f2fc42010c5d459ab2799b66c</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-29 21:22:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9187531f2fc42010c5d459ab2799b673</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
             <value/>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>command</element>
-            <name>var__m_sys_hub_step_ext_input_5587531f2fc42010c5d459ab2799b66c</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-29 21:22:38</sys_created_on>
-            <sys_id>d987531f2fc42010c5d459ab2799b673</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package display_value="OctoPrint Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="OctoPrint Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
-            <sys_update_name/>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-29 21:22:38</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

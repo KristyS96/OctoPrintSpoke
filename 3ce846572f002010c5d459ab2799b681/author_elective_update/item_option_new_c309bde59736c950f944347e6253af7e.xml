@@ -156,7 +156,7 @@
         <update_guid_history>9309bde56f36c950119654d9b5513f84:576320714</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SSH Password">692971299736c950f944347e6253af47</sys_audit_delete>
+        <sys_audit_delete display_value="">692971299736c950f944347e6253af47</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 13:15:55</sys_created_on>

@@ -224,7 +224,7 @@ utils.createPrinter(name,apiKey,user,pass);]]&gt;&lt;/script&gt;&lt;short_descri
         <update_guid_history>df09bde5d436c9500f1e52de923a8f9b:597714814,0b09bde5b236c950b40a747ede392564:1086789812</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Add a new printer">692971299736c950f944347e6253af72</sys_audit_delete>
+        <sys_audit_delete display_value="">692971299736c950f944347e6253af72</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 13:15:56</sys_created_on>
@@ -234,7 +234,7 @@ utils.createPrinter(name,apiKey,user,pass);]]&gt;&lt;/script&gt;&lt;short_descri
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Add a new printer</sys_name>
         <sys_package display_value="3D Printing Spoke" source="x_258747_octoprint">3ce846572f002010c5d459ab2799b681</sys_package>
-        <sys_parent display_value="3D Printer">6d0a66d687a60d10b0ab7518cebb35b8</sys_parent>
+        <sys_parent display_value="">6d0a66d687a60d10b0ab7518cebb35b8</sys_parent>
         <sys_policy/>
         <sys_scope display_value="3D Printing Spoke">3ce846572f002010c5d459ab2799b681</sys_scope>
         <sys_scope_delete display_value="">721644837ef942389440e975e86b35c9</sys_scope_delete>

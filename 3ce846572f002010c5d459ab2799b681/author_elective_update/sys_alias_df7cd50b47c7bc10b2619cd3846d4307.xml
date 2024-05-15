@@ -54,7 +54,7 @@
 </record_update>]]></payload>
         <payload_hash>-1178037637</payload_hash>
         <record_name>x_258747_octoprint.RPi_Credential_Alias</record_name>
-        <reverted_from display_value="sys_alias_df7cd50b47c7bc10b2619cd3846d4307">28b443de870e0110b0ab7518cebb3505</reverted_from>
+        <reverted_from display_value="">28b443de870e0110b0ab7518cebb3505</reverted_from>
         <source>a0b443de870e0110b0ab7518cebb3503</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>

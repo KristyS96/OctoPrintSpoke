@@ -5,6 +5,7 @@
         <jwt_provider/>
         <name>Thingiverse default_profile</name>
         <oauth_entity display_value="Thingiverse">453686138762cd10b0ab7518cebb35bb</oauth_entity>
+        <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-04 14:33:46</sys_created_on>
